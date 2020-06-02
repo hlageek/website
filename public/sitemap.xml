@@ -18,13 +18,13 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-06-02T02:52:34+02:00</lastmod>
+    <loc>/talk/example/</loc>
+    <lastmod>2020-06-02T01:16:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2020-06-02T01:16:20+02:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
@@ -38,15 +38,13 @@
   </url>
   
   <url>
-    <loc>/author/</loc>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
@@ -55,7 +53,7 @@
   
   <url>
     <loc>/contact/</loc>
-    <lastmod>2020-06-02T02:52:34+02:00</lastmod>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
@@ -65,6 +63,7 @@
   
   <url>
     <loc>/projects/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
@@ -73,10 +72,17 @@
   
   <url>
     <loc>/posts/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
     <loc>/publications/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/radim-hladik/</loc>
+    <lastmod>2020-06-02T23:51:04+02:00</lastmod>
   </url>
   
   <url>
