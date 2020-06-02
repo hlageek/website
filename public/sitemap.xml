@@ -18,6 +18,10 @@
   </url>
   
   <url>
+    <loc>/contact/</loc>
+  </url>
+  
+  <url>
     <loc>/talk/example/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
   </url>
@@ -195,6 +199,10 @@
   <url>
     <loc>/publication/conference-paper/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
   </url>
   
   <url>
