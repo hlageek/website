@@ -65,8 +65,6 @@
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
-    
 
     
 
@@ -312,6 +310,11 @@
   "datePublished": "2016-04-20T00:00:00Z",
   "dateModified": "2020-06-02T01:16:20+02:00",
   
+  "author": {
+    "@type": "Person",
+    "name": "admin"
+  },
+  
   "publisher": {
     "@type": "Organization",
     "name": "personal page",
@@ -399,6 +402,10 @@
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">personal page</a>
+    </div>
+    
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -407,6 +414,10 @@
     </button>
     
 
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">personal page</a>
+    </div>
     
 
     
@@ -475,7 +486,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publications"><span>publications</span></a>
+          <a class="nav-link " href="/publication/"><span>publications</span></a>
         </li>
 
         
@@ -497,7 +508,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/contact/"><span>contact</span></a>
+          <a class="nav-link " href="/contact"><span>contact</span></a>
         </li>
 
         
@@ -516,23 +527,6 @@
       </li>
       
 
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
       
 
       
@@ -592,7 +586,7 @@
     
 
   
-  <span><a href="/author/">admin</a></span>, <span><a href="/author/%E5%90%B3%E6%81%A9%E9%81%94/">吳恩達</a></span>
+  <span><a href="/author/admin/">admin</a></span>, <span><a href="/author/%E5%90%B3%E6%81%A9%E9%81%94/">吳恩達</a></span>
   </div>
   
   
@@ -605,17 +599,12 @@
           Last updated on
       
     
-    Jun 2, 2020
+    2020-06-02
   </span>
   
 
   
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
   
 
   
@@ -955,9 +944,6 @@
 
 
 
-  
-  
-
 
 
 
@@ -989,7 +975,10 @@
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key="></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
+      
     
 
     
