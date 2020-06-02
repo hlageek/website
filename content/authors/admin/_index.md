@@ -3,15 +3,29 @@ authors: Radim Hladík
 
 email: "radim.hladik@fulbrightmail.org"
 
+education:
+  courses:
+  - course: JSPS Postdoctoral Fellow
+    institution: National Institute of Informatics
+    year: 2017-2019
+  - course: PhD in Sociology
+    institution: Charles University
+    year: 2007-2011
+  - course: Fulbright Fellowship
+    institution: Columbia University
+    year: 2009-2010
+  - course: MA in Media Studies
+    institution: Charles University
+    year: 2003-2006
+
 interests:
 - Scholarly Communication
 - Quantitative Science Studies
 - Science Funding and Evaluation
-
-methods:
 - Text Analysis
 - Computational Social Sciences
 - Digital Humanities
+
 organizations:
 - name: Centre for Science, Technology, and Society Studies
   url: "http://stss.flu.cas.cz/"
@@ -23,7 +37,7 @@ role: researcher in science studies<br>DH & OA coordinator
 social:
 - icon: envelope
   icon_pack: fas
-  link: contact
+  link: mailto:radim.hladik@fulbrightmail.org
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/hlageek
@@ -33,11 +47,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/hlageek
-superuser: true
-title: Radim Hladík
-user_groups:
-- Researchers
-- Visitors
+
 ---
 
 Radim Hladík is a researcher at the Institute of Philosophy of the Czech Academy of Sciences (IP CAS) in Prague. His research interests span the quantitative studies of science, text analytics, digital humanities, media studies, and scholarly communication. He is currently the principal investigator on the Czech Science Foundation project "Funded and Unfunded Research in the Czech Republic: Scientometric Analysis and Topic Modeling" and the coordinator of the LINDAT/CLARIAH-CZ working group at IP CAS. He is also an editor of the Theory of Science journal and the chair of the Czech Association for Digital Humanities.
