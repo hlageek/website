@@ -100,7 +100,7 @@ address = {street = "Jilská 1", city = "Praha 1", region = "", postcode = "110 
 coordinates = {latitude = "50.0841866", longitude = "14.4163846"}
 
 # Directions for visitors to locate you.
-directions = "Office 212 on Floor 3 of Wing A"
+directions = "Institute of Philosophy of the CAS, Office 212A"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
