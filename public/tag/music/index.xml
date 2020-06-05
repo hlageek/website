@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music | Radim Hladík</title>
+    <link>/tag/music/</link>
+      <atom:link href="/tag/music/index.xml" rel="self" type="application/rss+xml" />
+    <description>music</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>music</title>
+      <link>/tag/music/</link>
+    </image>
+    
+    <item>
+      <title>Originální Retro. Fonografické Technologie a Subkulturn ́Techniky Času v Northern Soulu</title>
+      <link>/publications/hladik-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publications/hladik-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

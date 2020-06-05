@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>science | Radim Hladík</title>
+    <link>/tag/science/</link>
+      <atom:link href="/tag/science/index.xml" rel="self" type="application/rss+xml" />
+    <description>science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>science</title>
+      <link>/tag/science/</link>
+    </image>
+    
+    <item>
+      <title>Místo a Pohyb Věděn</title>
+      <link>/publications/hladik-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publications/hladik-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

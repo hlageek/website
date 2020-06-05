@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan Zápotocký | Radim Hladík</title>
+    <link>/author/jan-zapotocky/</link>
+      <atom:link href="/author/jan-zapotocky/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jan Zápotocký</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>Jan Zápotocký</title>
+      <link>/author/jan-zapotocky/</link>
+    </image>
+    
+    <item>
+      <title>Who Is Afraid of the Platforms? Adoption and Strategies of Use of Social Media by Politicians in the Czech Republic</title>
+      <link>/publications/mackova-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publications/mackova-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
