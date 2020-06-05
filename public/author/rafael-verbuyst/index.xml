@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafael Verbuyst | Radim Hladík</title>
+    <link>/author/rafael-verbuyst/</link>
+      <atom:link href="/author/rafael-verbuyst/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rafael Verbuyst</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>Rafael Verbuyst</title>
+      <link>/author/rafael-verbuyst/</link>
+    </image>
+    
+    <item>
+      <title>History, Historians and the South African Truth and Reconciliation Commission.</title>
+      <link>/publications/verbuyst-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publications/verbuyst-2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

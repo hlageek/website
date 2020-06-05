@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Václav Štětka | Radim Hladík</title>
+    <link>/author/vaclav-stetka/</link>
+      <atom:link href="/author/vaclav-stetka/index.xml" rel="self" type="application/rss+xml" />
+    <description>Václav Štětka</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>Václav Štětka</title>
+      <link>/author/vaclav-stetka/</link>
+    </image>
+    
+    <item>
+      <title>Who Is Afraid of the Platforms? Adoption and Strategies of Use of Social Media by Politicians in the Czech Republic</title>
+      <link>/publications/mackova-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publications/mackova-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Powers That Tweet: Social Media as News Sources in the Czech Republic</title>
+      <link>/publications/hladik-2017-a/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publications/hladik-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Too Much Buzz about Nothing? Uses of Social Media in Czech News Production</title>
+      <link>/publications/stetka-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publications/stetka-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

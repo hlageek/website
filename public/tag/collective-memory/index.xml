@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collective memory | Radim Hladík</title>
+    <link>/tag/collective-memory/</link>
+      <atom:link href="/tag/collective-memory/index.xml" rel="self" type="application/rss+xml" />
+    <description>collective memory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>collective memory</title>
+      <link>/tag/collective-memory/</link>
+    </image>
+    
+    <item>
+      <title>Memories of the States, Histories of the Historians</title>
+      <link>/publications/hladik-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publications/hladik-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

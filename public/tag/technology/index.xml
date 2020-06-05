@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology | Radim Hladík</title>
+    <link>/tag/technology/</link>
+      <atom:link href="/tag/technology/index.xml" rel="self" type="application/rss+xml" />
+    <description>technology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>technology</title>
+      <link>/tag/technology/</link>
+    </image>
+    
+    <item>
+      <title>Za Hranice Mediálních Technologi ́a Oborů: Současné Př&#39;t́upy k Žánru</title>
+      <link>/publications/hladik-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publications/hladik-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

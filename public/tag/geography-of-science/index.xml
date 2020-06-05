@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geography of science | Radim Hladík</title>
+    <link>/tag/geography-of-science/</link>
+      <atom:link href="/tag/geography-of-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>geography of science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sharing_image.png</url>
+      <title>geography of science</title>
+      <link>/tag/geography-of-science/</link>
+    </image>
+    
+    <item>
+      <title>Epistemologies of Spaces and Places. An Introduction</title>
+      <link>/publications/hladik-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publications/hladik-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
