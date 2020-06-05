@@ -27,7 +27,7 @@ interests:
 - Text Analysis
 - Computational Social Sciences
 - Digital Humanities
-- everything <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a>
+- Everything <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a> does
 
 organizations:
 - name: Centre for Science, Technology, and Society Studies
