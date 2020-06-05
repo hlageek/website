@@ -27,7 +27,7 @@ interests:
 - Text Analysis
 - Computational Social Sciences
 - Digital Humanities
-- Everything <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a> does
+- Learning <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a>
 
 organizations:
 - name: Centre for Science, Technology, and Society Studies
@@ -50,6 +50,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/hlageek
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0001-8078-6477
 
 ---
 <script defer src="/static/fontawesome/fontawesome-all.js"></script>
