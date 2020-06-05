@@ -13,7 +13,7 @@ education:
   - course: PhD in Sociology
     institution: Charles University (CZ)
     year: 2007-2011
-  - course: Fulbright Student Fellowship
+  - course: Fulbright Student Fellow
     institution: Columbia University (USA)
     year: 2009-2010
   - course: MA in Media Studies
