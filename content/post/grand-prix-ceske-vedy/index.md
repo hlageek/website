@@ -10,16 +10,22 @@ image:
   focal_point: ""
   placement: 1
   preview_only: false
-lastmod: "`r Sys.Date()`"
+lastmod: "2020-06-07"
 projects: []
+categories:
+- Czech
 tags:
 - Czech Science Foundation
 - science funding
 - analysis
 title: 'Grand prix české vědy: Analýza soutěží Grantové agentury ČR pro rok 2020'
 subtitle: 'Analýza grantové soutěže GAČR 2020 vypracovaná pro [Czexpats in Science](http://czexpatsinscience.cz/blog-post/gacr_2020/) a přetištěná na portále [Vědavýzkum.cz](https://vedavyzkum.cz/z-domova/czexpats-in-science/grand-prix-ceske-vedy-analyza-soutezi-grantove-agentury-cr-pro-rok-2020)'
+toc: true
 
 ---
+{{% toc %}}
+
+## Úvod
 
 Grantová agentura České republiky ([GAČR](https://www.gacr.cz/)) je organizační složka státu zodpovědná za rozdělování veřejných prostředků na základní výzkum. V českém akademickém systému se jedná o hlavní zdroj grantových prostředků pro malé i velké výzkumné skupiny a s nadsázkou se dá říct, že každá vědkyně i každý vědec v Česku si k nějakému grantu GAČR během své kariéry přičichl nebo přičichne.
 
@@ -29,7 +35,7 @@ Iniciativa[ Czexpats in Science](http://www.czexpats.org/) propojuje české v
 
 Vstupní data a zdrojové kódy analýz v R a Pythonu jsou dostupné online na[ github.com](https://github.com/mhkoscience/gacr-2020-public.git).
 
-#### Projektové soutěže
+## Projektové soutěže
 
 Pro projekty s počátkem řešení v 2020 bylo otevřeno 5 soutěží. Podle absolutních počtů přihlášek představují dominantní soutěž Standardní projekty s 1900 žádostmi (Obrázek 1). Standardní projekty jsou udělovány na 2-3 roky. Jejich relativně krátké trvání bývá zdrojem kritiky, neboť je obtížné v daném časovém rámci realizovat výzkum i publikovat jeho výsledky. Hodnocení projektu však lze na základě žádosti odložit, což poskytuje dodatečný prostor pro vykázání výsledků. Výhodou této soutěže je kromě velké alokace finančních prostředků také flexibilita pro hlavní řešitele s ohledem na formální požadavky. O Standardní grant se mohou ucházet seniornější i začínající badatelé, ovšem ti druzí se pak mohou potýkat s náročnější konkurencí.
 
@@ -39,7 +45,7 @@ Z hlediska prestiže se v posledních dvou letech do čela soutěží GAČR post
 
 Zbývající dvě soutěže vyhlašované GAČR mají mezinárodní charakter. Soutěží se jednak o Mezinárodní projekty, které GAČR vyhlašuje na základě bilaterální spolupráce se zahraničními agenturami (Německo, Tchaj-wan, Korea, Rusko, Brazílie), jednak na platformě Lead Agency. V soutěži Lead Agency hodnocení žádostí provádí pouze jedna agentura, která je v pozici "Lead Agency". Dosud GAČR takto spolupracovala pouze s rakouskou agenturou FWF, v soutěži na rok 2021 je portfolio rozšířeno o švýcarské, polské a slovinské partnery.
 
-#### Rozpočty a úspěšnosti soutěží
+## Rozpočty a úspěšnosti soutěží
 
 [![souteze](https://vedavyzkum.cz/images/4_grafika/souteze.png)](http://czexpatsinscience.cz/wp-content/uploads/2020/03/souteze.html)
 
@@ -55,7 +61,7 @@ Více o oborových odlišnostech bychom se možná dozvěděli z distribuce úsp
 
 Z oborové perspektivy stojí za zmínku také nulová úspěšnost společenskovědních projektů v kategorii Mezinárodních projektů. Co do počtu přihlášek (232) představují Mezinárodní projekty třetí největší soutěž GAČR, ale s průměrnými 9 % podpořených žádostí je to soutěž nejnáročnější. V této soutěži se navíc úspěšnost mezi komisemi liší velmi výrazně a sahá od již zmiňované nuly až po úspěšnost 24,5 % v lékařských a biologických vědách. I v soutěži EXPRO bývají projekty vyhodnocovány oborovými panely, ale výsledky jsou vyhlašovány za celou soutěž a na základě poskytnutých dat tak nelze oborové hledisko hodnotit.
 
-#### Ideální název grantu
+## Ideální název grantu
 
 Analýza textu není tolik exaktní jako tvrdá data o udělených dotacích a úspěšnostech přihlášek. Na rozdíl od nich však rozbor slov vyskytujících se v projektových žádostech nabízí neotřelý úhel pohledu na grantové soutěže a poskytuje více prostoru pro interpretaci. Bohužel, textová data v sadě od GAČR neobsahují abstrakty neúspěšných žádostí. Zde jsme proto za obě hlavní soutěže GAČR porovnali na základní tvar převedené termíny z názvů přihlášek a klíčových slov.
 
@@ -79,7 +85,7 @@ Ani rozbor na úrovni oborových komisí nevykázal žádné výrazné vzory, kt
 
 Velikost uzlů opět vyjadřuje jejich stupňovou centralitu. Pokud by oborové komise výrazně upřednostňovaly vybraná témata, vazby by se kumulovaly zvlášť mezi podpořenými a zamítnutými žádostmi. Ve skutečnosti však probíhají celým prostorem. Pouze u některých oborových komisí je při bližším pohledu patrné, že některé vrcholy tvořené neúspěšnými žádostmi jsou propojené intenzivněji. Nejzřetelnější je tento jev v humanitních a společenských vědách a v komisi zemědělských a biologicko-environmentálních věd. Na základě explorativních vizualizací však můžeme nanejvýš vyslovit hypotézu, že grantové žádosti nejsou kvůli své tematické orientaci systematicky zvýhodňovány, ale některá témata mohou být v soutěži znevýhodněna. Tento signál je však slabý a není tedy vůbec jisté, zda by obstál jako závěr ve formálním testu této hypotézy.
 
-#### Vítězové a poražení
+## Vítězové a poražení
 
 Data umožnila analyzovat grantové chování jednotlivých institucí na úrovni fakult vysokých škol a ústavů Akademie věd ČR. Do některé ze soutěží se zapojilo 234 institucí, přičemž v množství podaných návrhů jsou až řádové rozdíly. Nejvíce návrhů -- 118 -- poslala Přírodovědecká fakulta UK v Praze, naproti tomu 34 institucí poslalo jedinou žádost. Asi dvě třetiny institucí podaly méně než 10 návrhů do všech soutěží.
 
@@ -129,7 +135,7 @@ Z profesní zvědavosti jsme se podrobněji také podívali na přírodovědeck�
 
 Přírodovědecké fakulty se co do počtu žádostí rozdělily na ty velké (UK, MU, UP a JU) a malé (Ostrava, UJEP a Hradec Králové). Obecně se jim dařilo. Mezi velkými univerzitami byly v úspěšnosti značně nad průměrem PřF MU a JU v Českých Budějovicích. Hodnoty úspěšnosti u malých univerzit jsou zatíženy malým počtem žádostí. Znatelně pod průměrnou úspěšností 24 % se ve Standardních grantech umístila přírodověda v Olomouci s 19 % úspěšností. PřF v Olomouci se letos nedařilo ani v Juniorské soutěži, kde získala jediný grant, což odpovídá úspěšnosti 17 %. Ostatní přírodovědecké fakulty měly vyšší než průměrnou úspěšnost 30 %, nejvyšší pak PřF JU s 67 %.
 
-#### Shrnutí a výhled
+## Shrnutí a výhled
 
 Představili jsme základní statistické informace o projektech GAČR s počátkem řešení v lednu 2020, které jsme zjistili z dat získaných na žádost Czexpats in Science. Dle našeho názoru by GAČR měla data a podrobné statistiky zveřejňovat z vlastní iniciativy, ať už pro zvýšení své transparentnosti a důvěryhodnosti, nebo aby napomohla vnitřní reflexi českých vědeckých institucí. GAČR by se mohla inspirovat (nebo přímo spolupracovat) s portálem [STARFOS ](https://starfos.tacr.cz/)Technologické agentury ČR, která nabízí o svých grantových soutěžích podobné informace, které prezentujeme v této analýze. Za jednoznačně pozitivní posun ve výročních zprávách GAČR považujeme např. zahrnutí aspoň základních statistik o rozdělení žadatelů podle genderu a oborů. V naší analýze jsme genderovou perspektivu nemohli zohlednit, neboť potřebné údaje o žadatelích nebyly v poskytnutých datech k dispozici.
 
@@ -139,7 +145,7 @@ Dalšími rozměry, kterými je náš současný pohled limitován, jsou velikos
 
 Při optimálním nastavení hodnoticích procesů by grantové soutěže měly vědě prospívat výběrem nejlepších kandidátů a témat k mimořádné podpoře. Kevin Gross a Carl T. Bergstrom však ve svém loňském [článku ](https://doi.org/10.1371/journal.pbio.3000065)*"Contest models highlight inherent inefficiencies of scientific funding competitions"* postulují existenci kritického bodu, po jehož překonání začínají grantové soutěže vědě spíše škodit. Reálná pozice tohoto bodu se odvíjí od průměrné úspěšnosti v grantových soutěžích, která má historicky sestupný trend. Pokud úspěšnost klesne pod určitou hladinu, čas a práce investované do přípravy grantové žádosti se sice stále vyplatí vítězům soutěže, ale věda jako celek začíná strádat, neboť malá množina podpořených badatelů již nedokáže vykompenzovat množství úsilí, které do přípravy často i vysoce kvalitních projektů vložili neúspěšní žadatelé. Naše analýza např. poukazuje na vysoké množství institucí s úspěšností 0 %. Pokud GAČR udrží nebo zvýší ve svých hlavních soutěžích aktuální míry úspěšnosti, může české vědě prospívat. Jestliže se však potvrdí trend, v němž některé obory mají v Mezinárodních projektech GAČR úspěšnost hluboko pod 10 %, pak lze pochybovat o tom, zda je existence takového schématu pro rozvoj těchto oborů prospěšná. Grossův a Bergstromův argument také tvoří rub současné snahy GAČR o rozvíjení programů EXPRO a STAR, jejichž parametry sice vycházejí vstříc reálným potřebám vědců pro rozvíjení excelentních týmů (především pětiletá doba řešení), avšak děje se tak na úkor průměrné úspěšnosti žádostí, která v EXPRO aktuálně klesá pod 20 %. Pokud toto dilema nerozetne navýšení rozpočtu GAČR, mohlo by hrozit, že dobře míněné snahy o vylepšování českých grantových schémat se minou účinkem.
 
-*Autoři:*
+## Autoři
 
 *Michal H. Kolář, Vysoká škola chemicko-technologická v Praze a Czexpats in Science*
 
@@ -147,7 +153,7 @@ Při optimálním nastavení hodnoticích procesů by grantové soutěže měly 
 
 *Zdroj:[Czexpats in Science](http://czexpatsinscience.cz/blog-post/gacr_2020/)*
 
-* * * * *
+***
 
 **RNDr. Michal H. Kolář, Ph.D.**
 
