@@ -19,9 +19,9 @@ tags:
 - science funding
 - analysis
 title: 'Grand prix české vědy: Analýza soutěží Grantové agentury ČR pro rok 2020'
-subtitle: 'Analýza grantové soutěže GAČR 2020 vypracovaná pro [Czexpats in Science](http://czexpatsinscience.cz/blog-post/gacr_2020/) a přetištěná na portále [Vědavýzkum.cz](https://vedavyzkum.cz/z-domova/czexpats-in-science/grand-prix-ceske-vedy-analyza-soutezi-grantove-agentury-cr-pro-rok-2020)'
+subtitle: 'Analýza soutěží grantové agentury ČR v roce 2020 se zabývá udělenou projektovou podporou podle oborů a soutěží, lingvistickými vazbami mezi podpořenými a nepodpořenými přihláškami i úspěšností různých výzkumných institucí až na úroveň univerzitních fakult. Vypracováno pro [Czexpats in Science](http://czexpatsinscience.cz/blog-post/gacr_2020/) a přetištěno na portále [Vědavýzkum.cz](https://vedavyzkum.cz/z-domova/czexpats-in-science/grand-prix-ceske-vedy-analyza-soutezi-grantove-agentury-cr-pro-rok-2020).'
 toc: true
-
+summary: "Analýza soutěží grantové agentury ČR v roce 2020 se zabývá udělenou projektovou podporou podle oborů a soutěží, lingvistickými vazbami mezi podpořenými a nepodpořenými přihláškami i úspěšností různých výzkumných institucí až na úroveň univerzitních fakult. Vypracováno pro [Czexpats in Science](http://czexpatsinscience.cz/blog-post/gacr_2020/) a přetištěno na portále [Vědavýzkum.cz](https://vedavyzkum.cz/z-domova/czexpats-in-science/grand-prix-ceske-vedy-analyza-soutezi-grantove-agentury-cr-pro-rok-2020)."
 ---
 {{% toc %}}
 
