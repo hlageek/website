@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Radim Hladík</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/sharing.png</url>
       <title>Radim Hladík</title>
@@ -77,11 +77,165 @@
     </item>
     
     <item>
+      <title>Grand prix české vědy: Analýza soutěží Grantové agentury ČR pro rok 2020</title>
+      <link>/post/grand-prix-ceske-vedy/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/grand-prix-ceske-vedy/</guid>
+      <description>&lt;p&gt;Grantová agentura České republiky (
+&lt;a href=&#34;https://www.gacr.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GAČR&lt;/a&gt;) je organizační složka státu zodpovědná za rozdělování veřejných prostředků na základní výzkum. V českém akademickém systému se jedná o hlavní zdroj grantových prostředků pro malé i velké výzkumné skupiny a s nadsázkou se dá říct, že každá vědkyně i každý vědec v Česku si k nějakému grantu GAČR během své kariéry přičichl nebo přičichne.&lt;/p&gt;
+&lt;p&gt;GAČR každoročně zveřejňuje statistiky o projektech ve svých 
+&lt;a href=&#34;https://gacr.cz/o-ga-cr/pro-media/zpravy-o-cinnosti/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;výročních zprávách&lt;/a&gt; a informace o schválených projektech jsou po čase dostupné v 
+&lt;a href=&#34;https://rvvi.cz/cep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centrální evidenci projektů&lt;/a&gt;. Co ale v celkovém obrázku chybí jsou informace o neschválených návrzích, díky kterým by bylo možné odpovědět na otázky jako: Které instituce o granty žádají? Jak jsou úspěšné? Která témata jsou populární?&lt;/p&gt;
+&lt;p&gt;Iniciativa
+&lt;a href=&#34;http://www.czexpats.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Czexpats in Science&lt;/a&gt; propojuje české vědce působící v zahraničí a snaží se jim mimo jiné pomoci s orientací v prostředí české vědy. Aby lépe zmapovali systém grantů pro základní výzkum, požádali Czexpats na základě zákona o svobodném přístupu k informacím o data o posuzovaných projektech s počátkem řešení v roce 2020. GAČR žádost 
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/rozhodnuti.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;částečně zamítl&amp;rdquo;,&lt;/a&gt; a to s odvoláním na zákon o ochraně osobních údajů, autorský zákon a zadávací dokumentace jednotlivých grantových schémat. Přesto bylo možné vybrané rozměry poskytnutých dat analyzovat a výsledky, u nichž jsme se zaměřili především na aspekty, které GAČR nezveřejňuje ve svých výročních zprávách, shrnout v tomto textu. Analýzu loňských dat přinášíme v době, kdy probíhá příjem žádostí do hlavních soutěží GAČR pro rok 2021.&lt;/p&gt;
+&lt;p&gt;Vstupní data a zdrojové kódy analýz v R a Pythonu jsou dostupné online na
+&lt;a href=&#34;https://github.com/mhkoscience/gacr-2020-public.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; github.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;projektové-soutěže&#34;&gt;Projektové soutěže&lt;/h4&gt;
+&lt;p&gt;Pro projekty s počátkem řešení v 2020 bylo otevřeno 5 soutěží. Podle absolutních počtů přihlášek představují dominantní soutěž Standardní projekty s 1900 žádostmi (Obrázek 1). Standardní projekty jsou udělovány na 2-3 roky. Jejich relativně krátké trvání bývá zdrojem kritiky, neboť je obtížné v daném časovém rámci realizovat výzkum i publikovat jeho výsledky. Hodnocení projektu však lze na základě žádosti odložit, což poskytuje dodatečný prostor pro vykázání výsledků. Výhodou této soutěže je kromě velké alokace finančních prostředků také flexibilita pro hlavní řešitele s ohledem na formální požadavky. O Standardní grant se mohou ucházet seniornější i začínající badatelé, ovšem ti druzí se pak mohou potýkat s náročnější konkurencí.&lt;/p&gt;
+&lt;p&gt;Druhá nejfrekventovanější soutěž &amp;ndash; Juniorské projekty &amp;ndash; proběhla v roce 2019 naposledy. Nahradila ji čerstvě vyhlášená soutěž Junior STAR. Charakteristickým znakem Juniorských projektů bylo omezení na počet let od získání Ph.D. titulu, nezbytnost vytvořit tým s minimálně dvěma začínajícími badateli a požadavek na absolvování zahraniční stáže v trvání nejméně 6 měsíců, přičemž toto omezení bylo zmírněno na možnost vykázat dvě tříměsíční stáže. Za zahraniční se v soutěži považovala jiná země, než ve které žadatel získal doktorát, proto bylo toto schéma populární mezi českými badateli, kteří obdrželi doktorát v zahraničí a vrátili se do Česka, kde po 6 měsících splnili kvalifikační podmínku. Na druhou stranu tatáž podmínka z možnosti ucházet se o podporu vyřadila vědce s doktoráty získanými mimo ČR, ale bez vazeb na české instituce, které by tyto absolventy přijaly ještě před žádostí o Juniorský grant. Budoucí projekty Junior STAR zachovávají požadavek na významnou zahraniční zkušenost, avšak namísto formálního kritéria bude tato hodnocena kvalitativně. Vykazovat lze např. i stáže absolvované během doktorského studia nebo publikační zkušenosti v mezinárodních týmech. Junior STAR také slibuje štědřejší dotaci a doba trvání grantů je stanovena na 5 let. Parametry nové soutěže jsou tedy nastaveny tak, aby lépe podpořily ambiciózní týmy, ovšem uděleno má být pouhých 25 grantů, oproti 94 tříletým grantům v poslední Juniorské soutěži.&lt;/p&gt;
+&lt;p&gt;Z hlediska prestiže se v posledních dvou letech do čela soutěží GAČR postavily projekty EXPRO, tzv. grantové projekty excelence. Jsou charakteristické trváním na 5 let, výší celkové dotace až 50 mil. Kč, sníženými formálními požadavky na průběžná hodnocení a povinností, aby z podpořeného týmu vzešla aspoň jedna žádost o projekt Evropské výzkumné rady (ERC). Zkušenost z již realizovaných soutěží ukazuje, že šanci mají pouze žádosti předložené seniorními badateli, kteří jsou etablovanými autoritami v oboru. Projekty EXPRO tak na jednu stranu dávají šanci vytvořit skutečně excelentní podmínky pro výzkum, na druhou stranu zjevně fungují v režimu 
+&lt;a href=&#34;http://www.pnas.org/cgi/doi/10.1073/pnas.1719557115&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matoušova efektu&lt;/a&gt;, kterým sociolog vědy Robert Merton pojmenoval jev, kdy ti úspěšní se stávají ještě úspěšnějšími. Stojí za zmínku, že v soutěži EXPRO 2020 je v pozici hlavního řešitele mezi úspěšnými žádostmi pouze jedna žena. Bohužel nevíme, kolik žen o grant žádalo.&lt;/p&gt;
+&lt;p&gt;Zbývající dvě soutěže vyhlašované GAČR mají mezinárodní charakter. Soutěží se jednak o Mezinárodní projekty, které GAČR vyhlašuje na základě bilaterální spolupráce se zahraničními agenturami (Německo, Tchaj-wan, Korea, Rusko, Brazílie), jednak na platformě Lead Agency. V soutěži Lead Agency hodnocení žádostí provádí pouze jedna agentura, která je v pozici &amp;ldquo;Lead Agency&amp;rdquo;. Dosud GAČR takto spolupracovala pouze s rakouskou agenturou FWF, v soutěži na rok 2021 je portfolio rozšířeno o švýcarské, polské a slovinské partnery.&lt;/p&gt;
+&lt;h4 id=&#34;rozpočty-a-úspěšnosti-soutěží&#34;&gt;Rozpočty a úspěšnosti soutěží&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/souteze.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/souteze.png&#34; alt=&#34;souteze&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 1: Absolutní a relativní úspěšnost v soutěžích GAČR&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Podle úrovně úspěšnosti v různých disciplínách (Obrázek 1) je patrné, že agentura dbá, aby její portfolio bylo oborově vyrovnané. V obou hlavních soutěžích je napříč oborovými komisemi míra úspěšnosti srovnatelná. Ve Standardní soutěži činí rozmezí úspěšnosti zanedbatelných 1,2 procentního bodu, v Juniorské je o něco výraznější a pohybuje se od 26 % v technických vědách po 34 % ve vědách o neživé přírodě. Pro vědní politiku může být zajímavé ptát se, zda oborová seskupení, podle kterých GAČR operuje, odpovídají reálnému rozložení sil či potřeb v české vědě a výzkumu. Pro individuální žadatele je ale zase dobré vědět, že u žádné komise nebudou a priori znevýhodněni. Pro vědce v postdoktorské fázi kariéry navíc není bez zajímavosti, že úspěšnost je v Juniorské soutěži zpravidla vyšší než ve Standardní, i když udělované dotace na grant mohou za Standardní soutěží zůstávat pozadu v průměru i o 2 mil. Kč.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/rozpocty.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/rozpocty.png&#34; alt=&#34;rozpocty&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 2: Rozdělení dotací a průměrná dotace podle oborových komisí v soutěžích o Standardní a Juniorské projekty&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Více o oborových odlišnostech bychom se možná dozvěděli z distribuce úspěšných žádostí na úrovni hodnotících panelů, které mají vyšší oborovou granularitu než oborové komise, ale data v tomto rozlišení GAČR pro Czexpats neuvolnila. Že je oborová perspektiva v grantových soutěžích důležitá, lze aspoň v náznaku vypozorovat z dat o počtech udělených grantů a o oborově příslušných částkách. Zde se projevuje především rozdíl mezi vědami společenskými a humanitními (SSH) a ostatními disciplínami. Zatímco badatelé v SSH podávají zdaleka nejvíc žádostí (celkem 587 ve standardní souteži, druhé v pořadí jsou vědy o neživé přírodě s 369 přihláškami, Obrázek 2), jejich oborová komise rozdělila pro rok 2020 nejmenší absolutní částku a průměrná dotace na grant (3,73 mil. Kč) je v SSH téměř dvaapůlkrát nižší než u grantů v nejštědřejších komisi lékařských a biologických věd (9,08 mil. Kč).&lt;/p&gt;
+&lt;p&gt;Z oborové perspektivy stojí za zmínku také nulová úspěšnost společenskovědních projektů v kategorii Mezinárodních projektů. Co do počtu přihlášek (232) představují Mezinárodní projekty třetí největší soutěž GAČR, ale s průměrnými 9 % podpořených žádostí je to soutěž nejnáročnější. V této soutěži se navíc úspěšnost mezi komisemi liší velmi výrazně a sahá od již zmiňované nuly až po úspěšnost 24,5 % v lékařských a biologických vědách. I v soutěži EXPRO bývají projekty vyhodnocovány oborovými panely, ale výsledky jsou vyhlašovány za celou soutěž a na základě poskytnutých dat tak nelze oborové hledisko hodnotit.&lt;/p&gt;
+&lt;h4 id=&#34;ideální-název-grantu&#34;&gt;Ideální název grantu&lt;/h4&gt;
+&lt;p&gt;Analýza textu není tolik exaktní jako tvrdá data o udělených dotacích a úspěšnostech přihlášek. Na rozdíl od nich však rozbor slov vyskytujících se v projektových žádostech nabízí neotřelý úhel pohledu na grantové soutěže a poskytuje více prostoru pro interpretaci. Bohužel, textová data v sadě od GAČR neobsahují abstrakty neúspěšných žádostí. Zde jsme proto za obě hlavní soutěže GAČR porovnali na základní tvar převedené termíny z názvů přihlášek a klíčových slov.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/slova.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/slova.png&#34; alt=&#34;slova&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 3: Relativní výskyt 100 nejčastějších slov v záhlaví návrhů projektů podle výsledku žádosti&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Frekvenční jazyková analýza ukázala 100 nejčastěji se vyskytujících slov v grantových žádostech, která jsou navíc porovnána podle svých relativních četností v podpořených a zamítnutých projektech (Obrázek 3). Podle očekávání ta vskutku nejčastější slova leží kolem diagonály a nepřináleží preferenčně do žádné z obou skupin přihlášek. Tvar grafu však naznačuje, že čím více se slovník specializuje a frekvence slov se odpovídajícím způsobem snižuje, tím více se u jednotlivých slov projevuje relativní příklon k jedné či druhé skupině projektů. Na základě těchto výsledků lze s nezbytnou mírou nadsázky odvodit tato dvě doporučení pro budoucí žadatele: Chcete-li uspět, napište si žádost na téma &amp;ldquo;Nová role evoluce v chemické charakterizaci a regulaci proteinů&amp;rdquo;; naopak, pokud byste raději chtěli jen zlomyslně přidělávat zbytečnou práci hodnotitelům, vhodným názvem projektu by mohl být &amp;ldquo;Vliv zdrojů politické aktivity na chování sociálních vrstev&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Díky textovým údajům můžeme zachytit také sémantické vazby mezi jednotlivými návrhy projektů (Obrázek 4). V tomto případě uvažujeme o návrzích projektů v podobě sítě, v níž každý návrh představuje uzel (vrchol) síťového grafu a každé slovo, které sdílí s aspoň jedním dalším návrhem, zakládá vazbu (hranu) mezi návrhy. Počet hran dopadajících na konkrétní uzel lze vyjádřit jako tzv. stupeň uzlu, tedy jako míru centrality, která zachycuje sílu propojení konkrétního návrhu s ostatními. Projekt obsahující v názvu či klíčových slovech termíny, které se často vyskytují i v jiných návrzích, bude uzlem s vysokým stupněm.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/sit.png&#34; alt=&#34;sit&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 4: Síť přihlášek na základě sdílených slov podle oborů a výsledků žádosti&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nejdříve jsme vytvořili síť ze všech projektů ve Standardní a Juniorské soutěži a spočítali hrany na základě názvů a klíčových slov. Výsledná síť všech návrhů projektů je protkána statisíci vazeb, k její vizualizaci jsme tedy použili specializovaný nástroj 
+&lt;a href=&#34;https://gephi.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gephi&lt;/a&gt;. Velikost uzlů vypovídá o jejich stupňové centralitě. Barvu uzlů v případě Obrázku 4 vlevo odpovídá oborové komisi, do níž byl návrh podán, ve druhém případě barva označuje schválené a zamítnuté návrhy projektů. Obraz oborových skupin ukazuje, že přestože síť návrhů projektů není jako celek s výjimkou společenských a humanitních věd výrazně modularizovaná, sdílená slova celkem zdařile rekonstruují oborové rozlišení projektů. Pouze mezi technickými vědami a vědami o neživé přírodě, zdá se, dochází k výraznějším sémantickým překryvům.&lt;/p&gt;
+&lt;p&gt;Druhá varianta vizualizace v Obrázku 4 vpravo ukazuje, jak jsou v síti rozloženy schválené a zamítnuté žádosti. Úspěšné přihlášky se nekoncentrují ani na okrajích sítě (což by napovídalo preferenci projektů s ojedinělou terminologií), ani nevytvářejí žádné výrazné shluky sémanticky spřízněných projektů. Jelikož posláním GAČR je podporovat základní, nikoliv orientovaný výzkum, absence jasných vzorců zde představuje dobrou zprávu, stejně jako skutečnost, že schválen může být i projekt v podobě uzlu s nízkým stupněm a na okraji sítě. Na druhou stranu výsledný obrázek ani nenaznačuje, že by se u GAČR nějak zvlášť dařilo interdisciplinárním projektům. Pokud má síť hluchá místa, kde je úspěšných návrhů méně, je tomu tak právě v oblastech, kde se oborové skupiny navzájem setkávají.&lt;/p&gt;
+&lt;p&gt;Ani rozbor na úrovni oborových komisí nevykázal žádné výrazné vzory, které by na základě sémantických vazeb vznikaly mezi úspěšnými a neúspěšnými projekty. Pro větší přehlednost zde pracujeme pouze s vazbami mezi klíčovými slovy. Čtenáři se mohou na konkrétní klíčová slova podívat v interaktivních grafech pro 
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-hum.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;humanitní a společenské vědy&lt;/a&gt;, 
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-nez.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vědy o neživé přírodě&lt;/a&gt;,
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-tec.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technické vědy&lt;/a&gt;, 
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-zem.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zemědělské a biologicko-environmentální vědy&lt;/a&gt; a
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-lek.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; lékařské a biologické vědy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Velikost uzlů opět vyjadřuje jejich stupňovou centralitu. Pokud by oborové komise výrazně upřednostňovaly vybraná témata, vazby by se kumulovaly zvlášť mezi podpořenými a zamítnutými žádostmi. Ve skutečnosti však probíhají celým prostorem. Pouze u některých oborových komisí je při bližším pohledu patrné, že některé vrcholy tvořené neúspěšnými žádostmi jsou propojené intenzivněji. Nejzřetelnější je tento jev v humanitních a společenských vědách a v komisi zemědělských a biologicko-environmentálních věd. Na základě explorativních vizualizací však můžeme nanejvýš vyslovit hypotézu, že grantové žádosti nejsou kvůli své tematické orientaci systematicky zvýhodňovány, ale některá témata mohou být v soutěži znevýhodněna. Tento signál je však slabý a není tedy vůbec jisté, zda by obstál jako závěr ve formálním testu této hypotézy.&lt;/p&gt;
+&lt;h4 id=&#34;vítězové-a-poražení&#34;&gt;Vítězové a poražení&lt;/h4&gt;
+&lt;p&gt;Data umožnila analyzovat grantové chování jednotlivých institucí na úrovni fakult vysokých škol a ústavů Akademie věd ČR. Do některé ze soutěží se zapojilo 234 institucí, přičemž v množství podaných návrhů jsou až řádové rozdíly. Nejvíce návrhů &amp;ndash; 118 &amp;ndash; poslala Přírodovědecká fakulta UK v Praze, naproti tomu 34 institucí poslalo jedinou žádost. Asi dvě třetiny institucí podaly méně než 10 návrhů do všech soutěží.&lt;/p&gt;
+&lt;p&gt;Tak jako se instituce liší v množství podaných návrhů, liší se i množství schválených projektů respektive v poměru schválených vůči podaným. Za úspěšné lze považovat instituce, které mají vysoký poměr a/nebo velké množství schválených návrhů. Z dat zároveň plyne, že čím víc projektů instituce podá, tím víc jich bude v průměru schváleno.
+&lt;a href=&#34;https://cs.wikipedia.org/wiki/Spearman%C5%AFv_koeficient_po%C5%99adov%C3%A9_korelace&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spearmanův koeficient rS&lt;/a&gt; má pro Standardní projekty a instituce s více než 5 návrhy hodnotu 0,73 (ideální pořadovou korelaci mají data s rS=1).&lt;/p&gt;
+&lt;p&gt;V dalším textu se budeme zabývat Standardní, Juniorskou a EXPRO soutěží. O Standardní granty žádá zdaleka nejvíce institucí, Juniorské z našeho pohledu reprezentují pokrokovost instituce a příslib budoucnosti české vědy a EXPRO granty spojuje kvalitní a drahá věda. Lead Agency granty si dovolíme vynechat, neboť každá instituce získala buď jeden, nebo žádný grant. Mezinárodní projekty se dají shrnout do sdělení, že se 4 schválenými projekty v nich pomyslně zvítězil pražský Matfyz, tři instituce získaly po dvou grantech a 11 institucí jediný.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/navrhy-s.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/navrhy-s.png&#34; alt=&#34;navrhy s&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;em&gt;Obrázek 5: Instituce ve Standardní soutěži&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Obrázek 5 znázorňuje množství přijatých a zamítnutých návrhů na Standardní granty pro ústavy AV ČR (vlevo) a pro instituce mimo AV ČR (vpravo) seřazené podle celkového počtu návrhů a s uvedenou procentuální úspěšností návrhů. Pro přehlednost jsou instituce mimo AV ČR zobrazeny pouze pokud podaly alespoň 7 návrhů.&lt;/p&gt;
+&lt;p&gt;Nejvíce návrhů na Standardní projekt ze všech institucí bylo schváleno Přírodovědecké fakultě UK v Praze (21). Ta ale zároveň podala nejvíce žádostí a úspěšností 26 % byla slabě nad průměrem 24 %. Matematicko-fyzikální fakulta UK v Praze se umístila na pomyslné druhé příčce s 19 schválenými granty při úspěšnosti 31 %. Mezi ústavy AV ČR dominovalo Biologické centrum v Českých Budějovicích s 18 Standardními granty a nadprůměrnou úspěšností 36 %. Ústav organické chemie a biochemie, veřejně známý díky antivirotikům Antonína Holého, získal 12 grantů z 29 (úspěšnost 41 %). Pomineme-li instituce s méně než 10 podanými žádostmi, mírou úspěšnosti 44 % dominovala, pro nás překvapivě, Fakulta stavební ČVUT (12 schválených grantů).&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/navrhy-j.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/navrhy-j.png&#34; alt=&#34;navrhy j&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 6: Instituce v Juniorské soutěži&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Obrázek 6 znázorňuje množství přijatých a zamítnutých návrhů v Juniorské soutěži pro ústavy AV ČR (vlevo) a pro instituce mimo AV ČR (vpravo) seřazené podle celkového počtu návrhů a s uvedenou procentuální úspěšností. Pro přehlednost jsou instituce mimo AV ČR zobrazeny pouze pokud podaly alespoň 2 návrhy. Se 7 získanými granty zvítězilo Biologické centrum AV ČR v Českých Budějovicích a pražský Matfyz. Čtyři instituce získaly po 5 grantech. Nad průměrnou úspěšnost 30 % v Juniorské soutěži výrazně vyčnívají Přírodovědecká fakulta Jihočeské univerzity v Českých Budějovicích (4 granty, úspěšnost 67 %), Fyzikální ústav (5 grantů, úspěšnost 50 %) nebo Přírodovědecká fakulta MU (5 grantů, úspěšnost 45 %). Stojí za zmínku, že Juniorské granty mířily ve velké většině na přírodovědně a technicky zaměřené instituce. Žádná sociálně a humanitně zaměřená instituce nezískala více jak dva.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/navrhy-e.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/navrhy-e.png&#34; alt=&#34;navrhy e&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 7: Instituce v soutěži EXPRO&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Kategorie pětiletých grantů EXPRO je na Obrázku 7, vlevo pro ústavy AV ČR a vpravo pro instituce mimo AV ČR, z nichž jsou pro přehlednost zobrazené pouze ty, které podaly dvě a více žádostí. Nejvíce grantů &amp;ndash; tři &amp;ndash; získala Matematicko-fyzikální fakulta UK v Praze. Další 4 instituce získaly granty dva, přičemž instituce AV ČR a mimo ni si rozdělily shodně po 11 grantech.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/allRejected.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/zamitnute.png&#34; alt=&#34;zamitnute&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 8: Instituce s nulovou úspěšností&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Na opačném konci úspěšnosti se umístily instituce shrnuté na Obrázku 8. Ten zobrazuje ty instituce (společně AV ČR i mimo ni), které nezískaly ani jeden grant, seřazené podle počtu návrhů. Celkem 95 institucím byly všechny jejich návrhy zamítnuty. Z toho 21 institucí podalo víc než 5 návrhů.&lt;/p&gt;
+&lt;p&gt;Ve Standardních grantech si Černého Petra vytáhla Fakulta strojní ČVUT v Praze, u které ani jeden ze 17 návrhů nebyl schválen. Napadá nás několik důvodů, např. procesních nebo formálních, které by 0% úspěšnost při vysokém množství návrhů dokázaly vysvětlit. Nedostatečnou kvalitu návrhů ovšem nelze vyloučit. Kontaktovali jsme fakultní Oddělení pro vědu a výzkum, ale jejich vyjádření se nám získat nepodařilo. V Juniorských grantech se nedařilo Agronomické fakultě Mendelovy univerzity v Brně, která podala 7 žádostí, a v EXPRO grantech pak Středoevropskému technologickému institutu VUT s 10 žádostmi.&lt;/p&gt;
+&lt;p&gt;Dle našeho názoru z grafů a dat krystalizují instituce, které jsou, alespoň z hlediska schopnosti získávat granty GAČR, úspěšné. Dokonce bychom se neostýchali tuto úspěšnost zobecnit a např. Matematicko-fyzikální fakultu UK, Biologické centrum AV ČR nebo Fyzikální ústav AV ČR, které uspěly napříč grantovými soutěžemi, považovat v českém prostředí za prokazatelně špičkové výzkumné instituce. Nutno zmínit, že Biologickému centru se mimořádně daří navzdory tomu, že nemůže využívat výhody, kterých se dostává institucím v Praze a Brně, např. v podobě sousedství velkých univerzit či dopravní dostupnosti.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/fakulty-fil.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/fakulty-fil.png&#34; alt=&#34;fakulty fil&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 9: Filozofické fakulty univerzit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/fakulty-pri.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/fakulty-pri.png&#34; alt=&#34;fakulty pri&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Obrázek 10: Přírodovědecké fakulty univerzit&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Z profesní zvědavosti jsme se podrobněji také podívali na přírodovědecké (PřF) a filozofické fakulty (FF), které jsou součástí mnoha českých univerzit. Výsledky jsou shrnuté na Obrázcích 9 a 10 pro každou soutěž zvlášť, seřazené podle počtu podaných návrhů a s uvedenou procentuální úspěšností. Mezi filozofickými fakultami se nejvíce dařilo FF MU, která ve Standardní soutěží získala nejvíc grantů a nadprůměrnou úspěšností 39 % se zařadila těsně za Filosofický ústav AV ČR &amp;ndash; nejúspěšnější instituci společenskovědních disciplín (Obrázek 5). Juniorských a EXPRO grantů bylo filozofickým fakultám uděleno příliš málo na to, abychom výsledky mohli komentovat.&lt;/p&gt;
+&lt;p&gt;Přírodovědecké fakulty se co do počtu žádostí rozdělily na ty velké (UK, MU, UP a JU) a malé (Ostrava, UJEP a Hradec Králové). Obecně se jim dařilo. Mezi velkými univerzitami byly v úspěšnosti značně nad průměrem PřF MU a JU v Českých Budějovicích. Hodnoty úspěšnosti u malých univerzit jsou zatíženy malým počtem žádostí. Znatelně pod průměrnou úspěšností 24 % se ve Standardních grantech umístila přírodověda v Olomouci s 19 % úspěšností. PřF v Olomouci se letos nedařilo ani v Juniorské soutěži, kde získala jediný grant, což odpovídá úspěšnosti 17 %. Ostatní přírodovědecké fakulty měly vyšší než průměrnou úspěšnost 30 %, nejvyšší pak PřF JU s 67 %.&lt;/p&gt;
+&lt;h4 id=&#34;shrnutí-a-výhled&#34;&gt;Shrnutí a výhled&lt;/h4&gt;
+&lt;p&gt;Představili jsme základní statistické informace o projektech GAČR s počátkem řešení v lednu 2020, které jsme zjistili z dat získaných na žádost Czexpats in Science. Dle našeho názoru by GAČR měla data a podrobné statistiky zveřejňovat z vlastní iniciativy, ať už pro zvýšení své transparentnosti a důvěryhodnosti, nebo aby napomohla vnitřní reflexi českých vědeckých institucí. GAČR by se mohla inspirovat (nebo přímo spolupracovat) s portálem 
+&lt;a href=&#34;https://starfos.tacr.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STARFOS &lt;/a&gt;Technologické agentury ČR, která nabízí o svých grantových soutěžích podobné informace, které prezentujeme v této analýze. Za jednoznačně pozitivní posun ve výročních zprávách GAČR považujeme např. zahrnutí aspoň základních statistik o rozdělení žadatelů podle genderu a oborů. V naší analýze jsme genderovou perspektivu nemohli zohlednit, neboť potřebné údaje o žadatelích nebyly v poskytnutých datech k dispozici.&lt;/p&gt;
+&lt;p&gt;Bylo by zajímavé, a pro některé naše závěry možná i vhodné, analyzovat data za delší časový úsek a tím odpovědět např. na otázku, zda-li je pražský Matfyz úspěšný dlouhodobě. Meziroční výkyvy úspěšnosti mohou být významné zvlášť u institucí s malým množstvím návrhů. Srovnání by na druhou stranu bylo komplikované podmínkami jednotlivých soutěží, které se mění z roku na rok a např. u Juniorských grantů mohou mít velký vliv na průběh soutěže. Podobná analýza však přesahuje naše stávající možnosti.&lt;/p&gt;
+&lt;p&gt;Dalšími rozměry, kterými je náš současný pohled limitován, jsou velikosti jednotlivých institucí reprezentované počtem akademických pracovníků, studentů, případně rozpočtem. Nelze tedy říci, jaká je motivace uchazečů o granty žádat (mají malý rozpočet a mnoho zaměstnanců?). Některé závěry by bylo také vhodné normalizovat vůči velikosti instituce. Podává Přírodovědecká fakulta UK nejvíce grantů, protože má oproti ostatním institucím proporčně nejvíce zaměstnanců? Nevíme. Obecně bychom ale za nejúspěšnější instituci považovali tu, která má nejvyšší poměr přijetí vůči počtu zaměstnanců.&lt;/p&gt;
+&lt;p&gt;Při optimálním nastavení hodnoticích procesů by grantové soutěže měly vědě prospívat výběrem nejlepších kandidátů a témat k mimořádné podpoře. Kevin Gross a Carl T. Bergstrom však ve svém loňském 
+&lt;a href=&#34;https://doi.org/10.1371/journal.pbio.3000065&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;článku &lt;/a&gt;&lt;em&gt;&amp;ldquo;Contest models highlight inherent inefficiencies of scientific funding competitions&amp;rdquo;&lt;/em&gt; postulují existenci kritického bodu, po jehož překonání začínají grantové soutěže vědě spíše škodit. Reálná pozice tohoto bodu se odvíjí od průměrné úspěšnosti v grantových soutěžích, která má historicky sestupný trend. Pokud úspěšnost klesne pod určitou hladinu, čas a práce investované do přípravy grantové žádosti se sice stále vyplatí vítězům soutěže, ale věda jako celek začíná strádat, neboť malá množina podpořených badatelů již nedokáže vykompenzovat množství úsilí, které do přípravy často i vysoce kvalitních projektů vložili neúspěšní žadatelé. Naše analýza např. poukazuje na vysoké množství institucí s úspěšností 0 %. Pokud GAČR udrží nebo zvýší ve svých hlavních soutěžích aktuální míry úspěšnosti, může české vědě prospívat. Jestliže se však potvrdí trend, v němž některé obory mají v Mezinárodních projektech GAČR úspěšnost hluboko pod 10 %, pak lze pochybovat o tom, zda je existence takového schématu pro rozvoj těchto oborů prospěšná. Grossův a Bergstromův argument také tvoří rub současné snahy GAČR o rozvíjení programů EXPRO a STAR, jejichž parametry sice vycházejí vstříc reálným potřebám vědců pro rozvíjení excelentních týmů (především pětiletá doba řešení), avšak děje se tak na úkor průměrné úspěšnosti žádostí, která v EXPRO aktuálně klesá pod 20 %. Pokud toto dilema nerozetne navýšení rozpočtu GAČR, mohlo by hrozit, že dobře míněné snahy o vylepšování českých grantových schémat se minou účinkem.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Autoři:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Michal H. Kolář, Vysoká škola chemicko-technologická v Praze a Czexpats in Science&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Radim Hladík, Filosofický ústav AV ČR a Česká asociace pro digitální humanitní vědy (CzADH)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Zdroj:
+&lt;a href=&#34;http://czexpatsinscience.cz/blog-post/gacr_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Czexpats in Science&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;RNDr. Michal H. Kolář, Ph.D.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://mhko.science/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michal&lt;/a&gt;(*1985) vystudoval chemii a molekulové modelování na Přírodovědecké fakultě UK a Ústavu organické chemie a biochemie AV ČR. Za podpory Nadace Alexandera von Humboldta působil ve Výzkumném centru Jülich v Německu, odkud se přesunul do Ústavu Maxe Plancka pro biofyzikální chemii v Göttingenu. Od roku 2018 je odborným asistentem na Vysoké škole chemicko-technologické v Praze, kde mj. v rámci Juniorského projektu GAČR z loňského roku studuje detaily syntézu proteinů na ribozomech.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PhDr. Radim Hladík, Ph.D.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://twitter.com/hlageek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Radim&lt;/a&gt;(*1980) vystudoval sociologii na Fakultě sociálních věd UK. Od roku 2008 působí na Filosofickém ústavu AV ČR v Kabinetu pro studium vědy, techniky a společnosti. Během doktorského studia absolvoval jako nositel Fulbrightova stipendia roční pobyt na Columbia University v USA, v letech 2017-2019 realizoval s podporou Japan Society for the Promotion of Science postdoktorskou stáž na National Institute of Informatics v Japonsku. V Juniorské soutěži GAČR 2020 uspěl s projektem &amp;ldquo;Funded and Unfunded Research in the Czech Republic&amp;rdquo;. V České asociaci pro digitální humanitní vědy se zasazuje o využívání digitálních a kvantitativních metod v sociálních a humanitních vědách.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Why Sociologists Should Not Bother with Theory: The Effect of Topic on Citations</title>
       <link>/publication/hladik-2019-h/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/publication/hladik-2019-h/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the metadata of your post, using the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -251,6 +405,150 @@ Three
     </item>
     
     <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/post/getting-started/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
+&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 
+&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 
+&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👥 
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: 
+&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;ul&gt;
+&lt;li&gt;☕️ 
+&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💵 
+&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🖼️ 
+&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👕 
+&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👩‍💻 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+
+
+  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
+&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
+&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
+&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
+&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
+&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;
+&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;
+&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
+&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present 
+&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Origináln ́Retro. Fonografick&#39;T́echnologie a Subkulturn&#39;iéchniky Času v Northern Soulu</title>
       <link>/publication/hladik-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -264,6 +562,56 @@ Three
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/publication/stetka-2016/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -367,14 +715,6 @@ Three
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/posts/</guid>
       <description></description>
     </item>
     
