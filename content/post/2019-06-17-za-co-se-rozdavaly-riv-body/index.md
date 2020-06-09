@@ -32,7 +32,7 @@ Jak se to tedy má s onou námitkou, která v podstatě tvrdí, že úspěšnost
 
 Argument, že humanitní a sociální vědy jsou v početní nevýhodě, protože mají v databázi WoS málo prostoru, tak docela neplatí. Pokud bychom neházeli vědní obory do jednoho pytle, ale měřili zvlášť STEM a SSHA obory, pak by se ukázalo, že korelace mezi velikostí kategorie WoS a počtem výsledků ve STEM oborech je bezmála dokonalá (0.97) a naznačuje, že měříme totožné veličiny. Jinými slovy: při počítání publikací ve WoS záleží u STEM oborů na počtu časopisů ještě více, než tomu je v případě věd společenských a humanitních. V SSHA oborech představuje velikost kategorií WoS o něco silnější efekt, ale celkový vztah je mezi oběma proměnnými slabší. Jako vysvětlení pro nižší úspěšnost SSHA oborů uvedený argument tedy neobstojí. Ovšem samotné jádro námitky, totiž že při srovnávání oborů pomocí počítání publikačních záznamů ve WoS záleží na velikosti oborových kategorií, je zcela na místě. Pokud by si [RVVI ](https://www.vyzkum.cz/)nechala každý rok vyjet zprávu o stavu databáze Web of Science, bývala by si mohla odpustit celý český informační systém o výsledcích.
 
-![obr1](/2019-06-17-za-co-se-rozdavaly-riv-body/index_files/obr1.jpg)
+![obr1](/post/2019-06-17-za-co-se-rozdavaly-riv-body/index_files/obr1.jpg)
 
 *Obr. 1: Zastoupení oborů ve WoS a ve výsledcích Hodnocení 2017+*
 
@@ -45,7 +45,7 @@ Pokud akceptujeme premisu, že kvalitní výsledky se vyskytují v horním decil
 Přináší nová metodika hodnocení v tomto ohledu nějakou změnu? Kromě obecného závazku provádět mimo jiné také bibliometrické hodnocení neobsahuje žádné jeho konkrétní parametry. A to je možná dobře, neboť tak zůstává prostor celý systém ladit. Momentálně může mít tento stav nejistoty i blahodárné účinky. V situaci, ve které není jasné, jaká kritéria hodnocení budou použita, se snaha o poctivě odpracovaný výzkum stává racionální strategií, byť vsadit lze i na jiné cesty. Pokud se však Metodika 17+ bude držet měřících analytických postupů použitých při její první implementaci, pak podstatnou metrikou nadále nebudou počty, nýbrž podíly publikací, které se umístily ve vybraném segmentu (aktuálně v horním decilu WoS dle AIS) dané oborové kategorie. Druhá ilustrace ukazuje, že při těchto kalkulacích se vztah mezi sledovanou metrikou (podílem publikací) a velikostí oborové kategorie WoS zcela vytrácí. A to je dobrá zpráva.
 
 
-![](/2019-06-17-za-co-se-rozdavaly-riv-body/index_files/obr2.jpg)
+![](/post/2019-06-17-za-co-se-rozdavaly-riv-body/index_files/obr2.jpg)
 
 *Obr. 2: Zastoupení oborů ve WoS a podíl nejlepších výsledků dle Article Influence Score v Hodnocení 2017+*
 
