@@ -38,6 +38,9 @@ organizations:
   url: "http://www.avcr.cz/"
 role: researcher in science studies<br>DH & OA coordinator
 social:
+- icon: user-tie
+  icon_pack: fas
+  link: http://stss.flu.cas.cz/index.php/en/all/people/radim-hladik
 - icon: envelope
   icon_pack: fas
   link: mailto:radim.hladik@fulbrightmail.org
@@ -50,9 +53,15 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/hlageek
+- icon: publons
+  icon_pack: ai
+  link: https://publons.com/researcher/1641071/hladik-r/
 - icon: orcid
-  icon_pack: fab
+  icon_pack: ai
   link: https://orcid.org/0000-0001-8078-6477
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/szema/
 
 ---
 <script defer src="/static/fontawesome/fontawesome-all.js"></script>
