@@ -14,6 +14,8 @@ lastmod: "2020-06-07"
 projects: []
 categories:
 - Czech
+- Vedavyzkum.cz
+- Czexpats in Science
 tags:
 - Czech Science Foundation
 - science funding
