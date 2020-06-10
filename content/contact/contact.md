@@ -4,6 +4,7 @@ widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 130  # Order that this section will appear.
+type = "widget_page"  # Page type is a Widget Page
 
 title = "Contact"
 subtitle = "I look forward to hearing from fellow researchers and prospective students or to answering media inquiries. "

@@ -23,7 +23,9 @@ education:
 interests:
 - Scholarly Communication
 - Quantitative Science Studies
-- Science Funding and Evaluation
+- Science Funding
+- Science Evaluation
+- Open Science
 - Text Mining
 - Computational Social Sciences
 - Digital Humanities
@@ -64,5 +66,5 @@ social:
   link: https://osf.io/szema/
 
 ---
-Radim Hladík is a researcher at the [Institute of Philosophy](http://www.flu.cas.cz/) of the [Czech Academy of Sciences](http://www.avcr.cz/) (IP CAS) in Prague. His research interests span the quantitative studies of science, text analytics, digital humanities, media studies, and scholarly communication. He is currently the principal investigator on the [Czech Science Foundation](https://gacr.cz/) project "Funded and Unfunded Research in the Czech Republic: Scientometric Analysis and Topic Modeling" and the coordinator of the [LINDAT/CLARIAH-CZ](https://clariah.lindat.cz/) working group at IP CAS. He is also an editor of the [Theory of Science journal](http://teorievedy.flu.cas.cz/index.php/tv) and the chair of the [Czech Association for Digital Humanities](https://www.czadh.cz/).
 
+I am a researcher at the [Institute of Philosophy](http://www.flu.cas.cz/) of the [Czech Academy of Sciences](http://www.avcr.cz/) in Prague. More details are available in the [biography section](../about/). In terms of my research interests, I am curious about practices such as scholarly communication or science funding and how they shape scientific communities and knowledge. I like to apply computational methods in my work and follow [#RStats](https://twitter.com/search?q=%23RStats) avidly. Volunteering for the [Czech Association for Digital Humanities](https://www.czadh.cz/) and promoting open science principles at my workplace. Feel free to [reach me here](../contact/).

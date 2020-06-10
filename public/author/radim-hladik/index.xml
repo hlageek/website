@@ -1,227 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Radim Hladík</title>
+    <title>Radim Hladik | Radim Hladík</title>
     <link>/author/radim-hladik/</link>
       <atom:link href="/author/radim-hladik/index.xml" rel="self" type="application/rss+xml" />
-    <description>Radim Hladík</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright>
+    <description>Radim Hladik</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/author/radim-hladik/avatar_hu8f406418cac44549afb946dfb4a33842_16268_270x270_fill_lanczos_center_2.png</url>
-      <title>Radim Hladík</title>
+      <url>/img/sharing.png</url>
+      <title>Radim Hladik</title>
       <link>/author/radim-hladik/</link>
     </image>
     
     <item>
-      <title>Grand prix české vědy: Analýza soutěží Grantové agentury ČR pro rok 2020</title>
-      <link>/post/2019-01-21-grand-prix-ceske-vedy/</link>
-      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2019-01-21-grand-prix-ceske-vedy/</guid>
-      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#úvod&#34;&gt;Úvod&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#projektové-soutěže&#34;&gt;Projektové soutěže&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#rozpočty-a-úspěšnosti-soutěží&#34;&gt;Rozpočty a úspěšnosti soutěží&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#ideální-název-grantu&#34;&gt;Ideální název grantu&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#vítězové-a-poražení&#34;&gt;Vítězové a poražení&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#shrnutí-a-výhled&#34;&gt;Shrnutí a výhled&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#autoři&#34;&gt;Autoři&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;h2 id=&#34;úvod&#34;&gt;Úvod&lt;/h2&gt;
-&lt;p&gt;Grantová agentura České republiky (
-&lt;a href=&#34;https://www.gacr.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GAČR&lt;/a&gt;) je organizační složka státu zodpovědná za rozdělování veřejných prostředků na základní výzkum. V českém akademickém systému se jedná o hlavní zdroj grantových prostředků pro malé i velké výzkumné skupiny a s nadsázkou se dá říct, že každá vědkyně i každý vědec v Česku si k nějakému grantu GAČR během své kariéry přičichl nebo přičichne.&lt;/p&gt;
-&lt;p&gt;GAČR každoročně zveřejňuje statistiky o projektech ve svých 
-&lt;a href=&#34;https://gacr.cz/o-ga-cr/pro-media/zpravy-o-cinnosti/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;výročních zprávách&lt;/a&gt; a informace o schválených projektech jsou po čase dostupné v 
-&lt;a href=&#34;https://rvvi.cz/cep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Centrální evidenci projektů&lt;/a&gt;. Co ale v celkovém obrázku chybí jsou informace o neschválených návrzích, díky kterým by bylo možné odpovědět na otázky jako: Které instituce o granty žádají? Jak jsou úspěšné? Která témata jsou populární?&lt;/p&gt;
-&lt;p&gt;Iniciativa
-&lt;a href=&#34;http://www.czexpats.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Czexpats in Science&lt;/a&gt; propojuje české vědce působící v zahraničí a snaží se jim mimo jiné pomoci s orientací v prostředí české vědy. Aby lépe zmapovali systém grantů pro základní výzkum, požádali Czexpats na základě zákona o svobodném přístupu k informacím o data o posuzovaných projektech s počátkem řešení v roce 2020. GAČR žádost 
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/rozhodnuti.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;částečně zamítl&amp;rdquo;,&lt;/a&gt; a to s odvoláním na zákon o ochraně osobních údajů, autorský zákon a zadávací dokumentace jednotlivých grantových schémat. Přesto bylo možné vybrané rozměry poskytnutých dat analyzovat a výsledky, u nichž jsme se zaměřili především na aspekty, které GAČR nezveřejňuje ve svých výročních zprávách, shrnout v tomto textu. Analýzu loňských dat přinášíme v době, kdy probíhá příjem žádostí do hlavních soutěží GAČR pro rok 2021.&lt;/p&gt;
-&lt;p&gt;Vstupní data a zdrojové kódy analýz v R a Pythonu jsou dostupné online na
-&lt;a href=&#34;https://github.com/mhkoscience/gacr-2020-public.git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; github.com&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;projektové-soutěže&#34;&gt;Projektové soutěže&lt;/h2&gt;
-&lt;p&gt;Pro projekty s počátkem řešení v 2020 bylo otevřeno 5 soutěží. Podle absolutních počtů přihlášek představují dominantní soutěž Standardní projekty s 1900 žádostmi (Obrázek 1). Standardní projekty jsou udělovány na 2-3 roky. Jejich relativně krátké trvání bývá zdrojem kritiky, neboť je obtížné v daném časovém rámci realizovat výzkum i publikovat jeho výsledky. Hodnocení projektu však lze na základě žádosti odložit, což poskytuje dodatečný prostor pro vykázání výsledků. Výhodou této soutěže je kromě velké alokace finančních prostředků také flexibilita pro hlavní řešitele s ohledem na formální požadavky. O Standardní grant se mohou ucházet seniornější i začínající badatelé, ovšem ti druzí se pak mohou potýkat s náročnější konkurencí.&lt;/p&gt;
-&lt;p&gt;Druhá nejfrekventovanější soutěž &amp;ndash; Juniorské projekty &amp;ndash; proběhla v roce 2019 naposledy. Nahradila ji čerstvě vyhlášená soutěž Junior STAR. Charakteristickým znakem Juniorských projektů bylo omezení na počet let od získání Ph.D. titulu, nezbytnost vytvořit tým s minimálně dvěma začínajícími badateli a požadavek na absolvování zahraniční stáže v trvání nejméně 6 měsíců, přičemž toto omezení bylo zmírněno na možnost vykázat dvě tříměsíční stáže. Za zahraniční se v soutěži považovala jiná země, než ve které žadatel získal doktorát, proto bylo toto schéma populární mezi českými badateli, kteří obdrželi doktorát v zahraničí a vrátili se do Česka, kde po 6 měsících splnili kvalifikační podmínku. Na druhou stranu tatáž podmínka z možnosti ucházet se o podporu vyřadila vědce s doktoráty získanými mimo ČR, ale bez vazeb na české instituce, které by tyto absolventy přijaly ještě před žádostí o Juniorský grant. Budoucí projekty Junior STAR zachovávají požadavek na významnou zahraniční zkušenost, avšak namísto formálního kritéria bude tato hodnocena kvalitativně. Vykazovat lze např. i stáže absolvované během doktorského studia nebo publikační zkušenosti v mezinárodních týmech. Junior STAR také slibuje štědřejší dotaci a doba trvání grantů je stanovena na 5 let. Parametry nové soutěže jsou tedy nastaveny tak, aby lépe podpořily ambiciózní týmy, ovšem uděleno má být pouhých 25 grantů, oproti 94 tříletým grantům v poslední Juniorské soutěži.&lt;/p&gt;
-&lt;p&gt;Z hlediska prestiže se v posledních dvou letech do čela soutěží GAČR postavily projekty EXPRO, tzv. grantové projekty excelence. Jsou charakteristické trváním na 5 let, výší celkové dotace až 50 mil. Kč, sníženými formálními požadavky na průběžná hodnocení a povinností, aby z podpořeného týmu vzešla aspoň jedna žádost o projekt Evropské výzkumné rady (ERC). Zkušenost z již realizovaných soutěží ukazuje, že šanci mají pouze žádosti předložené seniorními badateli, kteří jsou etablovanými autoritami v oboru. Projekty EXPRO tak na jednu stranu dávají šanci vytvořit skutečně excelentní podmínky pro výzkum, na druhou stranu zjevně fungují v režimu 
-&lt;a href=&#34;http://www.pnas.org/cgi/doi/10.1073/pnas.1719557115&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Matoušova efektu&lt;/a&gt;, kterým sociolog vědy Robert Merton pojmenoval jev, kdy ti úspěšní se stávají ještě úspěšnějšími. Stojí za zmínku, že v soutěži EXPRO 2020 je v pozici hlavního řešitele mezi úspěšnými žádostmi pouze jedna žena. Bohužel nevíme, kolik žen o grant žádalo.&lt;/p&gt;
-&lt;p&gt;Zbývající dvě soutěže vyhlašované GAČR mají mezinárodní charakter. Soutěží se jednak o Mezinárodní projekty, které GAČR vyhlašuje na základě bilaterální spolupráce se zahraničními agenturami (Německo, Tchaj-wan, Korea, Rusko, Brazílie), jednak na platformě Lead Agency. V soutěži Lead Agency hodnocení žádostí provádí pouze jedna agentura, která je v pozici &amp;ldquo;Lead Agency&amp;rdquo;. Dosud GAČR takto spolupracovala pouze s rakouskou agenturou FWF, v soutěži na rok 2021 je portfolio rozšířeno o švýcarské, polské a slovinské partnery.&lt;/p&gt;
-&lt;h2 id=&#34;rozpočty-a-úspěšnosti-soutěží&#34;&gt;Rozpočty a úspěšnosti soutěží&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/souteze.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/souteze.png&#34; alt=&#34;souteze&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 1: Absolutní a relativní úspěšnost v soutěžích GAČR&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Podle úrovně úspěšnosti v různých disciplínách (Obrázek 1) je patrné, že agentura dbá, aby její portfolio bylo oborově vyrovnané. V obou hlavních soutěžích je napříč oborovými komisemi míra úspěšnosti srovnatelná. Ve Standardní soutěži činí rozmezí úspěšnosti zanedbatelných 1,2 procentního bodu, v Juniorské je o něco výraznější a pohybuje se od 26 % v technických vědách po 34 % ve vědách o neživé přírodě. Pro vědní politiku může být zajímavé ptát se, zda oborová seskupení, podle kterých GAČR operuje, odpovídají reálnému rozložení sil či potřeb v české vědě a výzkumu. Pro individuální žadatele je ale zase dobré vědět, že u žádné komise nebudou a priori znevýhodněni. Pro vědce v postdoktorské fázi kariéry navíc není bez zajímavosti, že úspěšnost je v Juniorské soutěži zpravidla vyšší než ve Standardní, i když udělované dotace na grant mohou za Standardní soutěží zůstávat pozadu v průměru i o 2 mil. Kč.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/rozpocty.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/rozpocty.png&#34; alt=&#34;rozpocty&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 2: Rozdělení dotací a průměrná dotace podle oborových komisí v soutěžích o Standardní a Juniorské projekty&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Více o oborových odlišnostech bychom se možná dozvěděli z distribuce úspěšných žádostí na úrovni hodnotících panelů, které mají vyšší oborovou granularitu než oborové komise, ale data v tomto rozlišení GAČR pro Czexpats neuvolnila. Že je oborová perspektiva v grantových soutěžích důležitá, lze aspoň v náznaku vypozorovat z dat o počtech udělených grantů a o oborově příslušných částkách. Zde se projevuje především rozdíl mezi vědami společenskými a humanitními (SSH) a ostatními disciplínami. Zatímco badatelé v SSH podávají zdaleka nejvíc žádostí (celkem 587 ve standardní souteži, druhé v pořadí jsou vědy o neživé přírodě s 369 přihláškami, Obrázek 2), jejich oborová komise rozdělila pro rok 2020 nejmenší absolutní částku a průměrná dotace na grant (3,73 mil. Kč) je v SSH téměř dvaapůlkrát nižší než u grantů v nejštědřejších komisi lékařských a biologických věd (9,08 mil. Kč).&lt;/p&gt;
-&lt;p&gt;Z oborové perspektivy stojí za zmínku také nulová úspěšnost společenskovědních projektů v kategorii Mezinárodních projektů. Co do počtu přihlášek (232) představují Mezinárodní projekty třetí největší soutěž GAČR, ale s průměrnými 9 % podpořených žádostí je to soutěž nejnáročnější. V této soutěži se navíc úspěšnost mezi komisemi liší velmi výrazně a sahá od již zmiňované nuly až po úspěšnost 24,5 % v lékařských a biologických vědách. I v soutěži EXPRO bývají projekty vyhodnocovány oborovými panely, ale výsledky jsou vyhlašovány za celou soutěž a na základě poskytnutých dat tak nelze oborové hledisko hodnotit.&lt;/p&gt;
-&lt;h2 id=&#34;ideální-název-grantu&#34;&gt;Ideální název grantu&lt;/h2&gt;
-&lt;p&gt;Analýza textu není tolik exaktní jako tvrdá data o udělených dotacích a úspěšnostech přihlášek. Na rozdíl od nich však rozbor slov vyskytujících se v projektových žádostech nabízí neotřelý úhel pohledu na grantové soutěže a poskytuje více prostoru pro interpretaci. Bohužel, textová data v sadě od GAČR neobsahují abstrakty neúspěšných žádostí. Zde jsme proto za obě hlavní soutěže GAČR porovnali na základní tvar převedené termíny z názvů přihlášek a klíčových slov.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/slova.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/slova.png&#34; alt=&#34;slova&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 3: Relativní výskyt 100 nejčastějších slov v záhlaví návrhů projektů podle výsledku žádosti&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Frekvenční jazyková analýza ukázala 100 nejčastěji se vyskytujících slov v grantových žádostech, která jsou navíc porovnána podle svých relativních četností v podpořených a zamítnutých projektech (Obrázek 3). Podle očekávání ta vskutku nejčastější slova leží kolem diagonály a nepřináleží preferenčně do žádné z obou skupin přihlášek. Tvar grafu však naznačuje, že čím více se slovník specializuje a frekvence slov se odpovídajícím způsobem snižuje, tím více se u jednotlivých slov projevuje relativní příklon k jedné či druhé skupině projektů. Na základě těchto výsledků lze s nezbytnou mírou nadsázky odvodit tato dvě doporučení pro budoucí žadatele: Chcete-li uspět, napište si žádost na téma &amp;ldquo;Nová role evoluce v chemické charakterizaci a regulaci proteinů&amp;rdquo;; naopak, pokud byste raději chtěli jen zlomyslně přidělávat zbytečnou práci hodnotitelům, vhodným názvem projektu by mohl být &amp;ldquo;Vliv zdrojů politické aktivity na chování sociálních vrstev&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Díky textovým údajům můžeme zachytit také sémantické vazby mezi jednotlivými návrhy projektů (Obrázek 4). V tomto případě uvažujeme o návrzích projektů v podobě sítě, v níž každý návrh představuje uzel (vrchol) síťového grafu a každé slovo, které sdílí s aspoň jedním dalším návrhem, zakládá vazbu (hranu) mezi návrhy. Počet hran dopadajících na konkrétní uzel lze vyjádřit jako tzv. stupeň uzlu, tedy jako míru centrality, která zachycuje sílu propojení konkrétního návrhu s ostatními. Projekt obsahující v názvu či klíčových slovech termíny, které se často vyskytují i v jiných návrzích, bude uzlem s vysokým stupněm.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/sit.png&#34; alt=&#34;sit&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 4: Síť přihlášek na základě sdílených slov podle oborů a výsledků žádosti&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Nejdříve jsme vytvořili síť ze všech projektů ve Standardní a Juniorské soutěži a spočítali hrany na základě názvů a klíčových slov. Výsledná síť všech návrhů projektů je protkána statisíci vazeb, k její vizualizaci jsme tedy použili specializovaný nástroj 
-&lt;a href=&#34;https://gephi.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gephi&lt;/a&gt;. Velikost uzlů vypovídá o jejich stupňové centralitě. Barvu uzlů v případě Obrázku 4 vlevo odpovídá oborové komisi, do níž byl návrh podán, ve druhém případě barva označuje schválené a zamítnuté návrhy projektů. Obraz oborových skupin ukazuje, že přestože síť návrhů projektů není jako celek s výjimkou společenských a humanitních věd výrazně modularizovaná, sdílená slova celkem zdařile rekonstruují oborové rozlišení projektů. Pouze mezi technickými vědami a vědami o neživé přírodě, zdá se, dochází k výraznějším sémantickým překryvům.&lt;/p&gt;
-&lt;p&gt;Druhá varianta vizualizace v Obrázku 4 vpravo ukazuje, jak jsou v síti rozloženy schválené a zamítnuté žádosti. Úspěšné přihlášky se nekoncentrují ani na okrajích sítě (což by napovídalo preferenci projektů s ojedinělou terminologií), ani nevytvářejí žádné výrazné shluky sémanticky spřízněných projektů. Jelikož posláním GAČR je podporovat základní, nikoliv orientovaný výzkum, absence jasných vzorců zde představuje dobrou zprávu, stejně jako skutečnost, že schválen může být i projekt v podobě uzlu s nízkým stupněm a na okraji sítě. Na druhou stranu výsledný obrázek ani nenaznačuje, že by se u GAČR nějak zvlášť dařilo interdisciplinárním projektům. Pokud má síť hluchá místa, kde je úspěšných návrhů méně, je tomu tak právě v oblastech, kde se oborové skupiny navzájem setkávají.&lt;/p&gt;
-&lt;p&gt;Ani rozbor na úrovni oborových komisí nevykázal žádné výrazné vzory, které by na základě sémantických vazeb vznikaly mezi úspěšnými a neúspěšnými projekty. Pro větší přehlednost zde pracujeme pouze s vazbami mezi klíčovými slovy. Čtenáři se mohou na konkrétní klíčová slova podívat v interaktivních grafech pro 
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-hum.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;humanitní a společenské vědy&lt;/a&gt;, 
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-nez.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vědy o neživé přírodě&lt;/a&gt;,
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-tec.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;technické vědy&lt;/a&gt;, 
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-zem.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zemědělské a biologicko-environmentální vědy&lt;/a&gt; a
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/sit-lek.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; lékařské a biologické vědy&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Velikost uzlů opět vyjadřuje jejich stupňovou centralitu. Pokud by oborové komise výrazně upřednostňovaly vybraná témata, vazby by se kumulovaly zvlášť mezi podpořenými a zamítnutými žádostmi. Ve skutečnosti však probíhají celým prostorem. Pouze u některých oborových komisí je při bližším pohledu patrné, že některé vrcholy tvořené neúspěšnými žádostmi jsou propojené intenzivněji. Nejzřetelnější je tento jev v humanitních a společenských vědách a v komisi zemědělských a biologicko-environmentálních věd. Na základě explorativních vizualizací však můžeme nanejvýš vyslovit hypotézu, že grantové žádosti nejsou kvůli své tematické orientaci systematicky zvýhodňovány, ale některá témata mohou být v soutěži znevýhodněna. Tento signál je však slabý a není tedy vůbec jisté, zda by obstál jako závěr ve formálním testu této hypotézy.&lt;/p&gt;
-&lt;h2 id=&#34;vítězové-a-poražení&#34;&gt;Vítězové a poražení&lt;/h2&gt;
-&lt;p&gt;Data umožnila analyzovat grantové chování jednotlivých institucí na úrovni fakult vysokých škol a ústavů Akademie věd ČR. Do některé ze soutěží se zapojilo 234 institucí, přičemž v množství podaných návrhů jsou až řádové rozdíly. Nejvíce návrhů &amp;ndash; 118 &amp;ndash; poslala Přírodovědecká fakulta UK v Praze, naproti tomu 34 institucí poslalo jedinou žádost. Asi dvě třetiny institucí podaly méně než 10 návrhů do všech soutěží.&lt;/p&gt;
-&lt;p&gt;Tak jako se instituce liší v množství podaných návrhů, liší se i množství schválených projektů respektive v poměru schválených vůči podaným. Za úspěšné lze považovat instituce, které mají vysoký poměr a/nebo velké množství schválených návrhů. Z dat zároveň plyne, že čím víc projektů instituce podá, tím víc jich bude v průměru schváleno.
-&lt;a href=&#34;https://cs.wikipedia.org/wiki/Spearman%C5%AFv_koeficient_po%C5%99adov%C3%A9_korelace&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spearmanův koeficient rS&lt;/a&gt; má pro Standardní projekty a instituce s více než 5 návrhy hodnotu 0,73 (ideální pořadovou korelaci mají data s rS=1).&lt;/p&gt;
-&lt;p&gt;V dalším textu se budeme zabývat Standardní, Juniorskou a EXPRO soutěží. O Standardní granty žádá zdaleka nejvíce institucí, Juniorské z našeho pohledu reprezentují pokrokovost instituce a příslib budoucnosti české vědy a EXPRO granty spojuje kvalitní a drahá věda. Lead Agency granty si dovolíme vynechat, neboť každá instituce získala buď jeden, nebo žádný grant. Mezinárodní projekty se dají shrnout do sdělení, že se 4 schválenými projekty v nich pomyslně zvítězil pražský Matfyz, tři instituce získaly po dvou grantech a 11 institucí jediný.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/navrhy-s.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/navrhy-s.png&#34; alt=&#34;navrhy s&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;em&gt;Obrázek 5: Instituce ve Standardní soutěži&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Obrázek 5 znázorňuje množství přijatých a zamítnutých návrhů na Standardní granty pro ústavy AV ČR (vlevo) a pro instituce mimo AV ČR (vpravo) seřazené podle celkového počtu návrhů a s uvedenou procentuální úspěšností návrhů. Pro přehlednost jsou instituce mimo AV ČR zobrazeny pouze pokud podaly alespoň 7 návrhů.&lt;/p&gt;
-&lt;p&gt;Nejvíce návrhů na Standardní projekt ze všech institucí bylo schváleno Přírodovědecké fakultě UK v Praze (21). Ta ale zároveň podala nejvíce žádostí a úspěšností 26 % byla slabě nad průměrem 24 %. Matematicko-fyzikální fakulta UK v Praze se umístila na pomyslné druhé příčce s 19 schválenými granty při úspěšnosti 31 %. Mezi ústavy AV ČR dominovalo Biologické centrum v Českých Budějovicích s 18 Standardními granty a nadprůměrnou úspěšností 36 %. Ústav organické chemie a biochemie, veřejně známý díky antivirotikům Antonína Holého, získal 12 grantů z 29 (úspěšnost 41 %). Pomineme-li instituce s méně než 10 podanými žádostmi, mírou úspěšnosti 44 % dominovala, pro nás překvapivě, Fakulta stavební ČVUT (12 schválených grantů).&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/navrhy-j.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/navrhy-j.png&#34; alt=&#34;navrhy j&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 6: Instituce v Juniorské soutěži&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Obrázek 6 znázorňuje množství přijatých a zamítnutých návrhů v Juniorské soutěži pro ústavy AV ČR (vlevo) a pro instituce mimo AV ČR (vpravo) seřazené podle celkového počtu návrhů a s uvedenou procentuální úspěšností. Pro přehlednost jsou instituce mimo AV ČR zobrazeny pouze pokud podaly alespoň 2 návrhy. Se 7 získanými granty zvítězilo Biologické centrum AV ČR v Českých Budějovicích a pražský Matfyz. Čtyři instituce získaly po 5 grantech. Nad průměrnou úspěšnost 30 % v Juniorské soutěži výrazně vyčnívají Přírodovědecká fakulta Jihočeské univerzity v Českých Budějovicích (4 granty, úspěšnost 67 %), Fyzikální ústav (5 grantů, úspěšnost 50 %) nebo Přírodovědecká fakulta MU (5 grantů, úspěšnost 45 %). Stojí za zmínku, že Juniorské granty mířily ve velké většině na přírodovědně a technicky zaměřené instituce. Žádná sociálně a humanitně zaměřená instituce nezískala více jak dva.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/navrhy-e.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/navrhy-e.png&#34; alt=&#34;navrhy e&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 7: Instituce v soutěži EXPRO&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Kategorie pětiletých grantů EXPRO je na Obrázku 7, vlevo pro ústavy AV ČR a vpravo pro instituce mimo AV ČR, z nichž jsou pro přehlednost zobrazené pouze ty, které podaly dvě a více žádostí. Nejvíce grantů &amp;ndash; tři &amp;ndash; získala Matematicko-fyzikální fakulta UK v Praze. Další 4 instituce získaly granty dva, přičemž instituce AV ČR a mimo ni si rozdělily shodně po 11 grantech.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/allRejected.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/zamitnute.png&#34; alt=&#34;zamitnute&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 8: Instituce s nulovou úspěšností&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Na opačném konci úspěšnosti se umístily instituce shrnuté na Obrázku 8. Ten zobrazuje ty instituce (společně AV ČR i mimo ni), které nezískaly ani jeden grant, seřazené podle počtu návrhů. Celkem 95 institucím byly všechny jejich návrhy zamítnuty. Z toho 21 institucí podalo víc než 5 návrhů.&lt;/p&gt;
-&lt;p&gt;Ve Standardních grantech si Černého Petra vytáhla Fakulta strojní ČVUT v Praze, u které ani jeden ze 17 návrhů nebyl schválen. Napadá nás několik důvodů, např. procesních nebo formálních, které by 0% úspěšnost při vysokém množství návrhů dokázaly vysvětlit. Nedostatečnou kvalitu návrhů ovšem nelze vyloučit. Kontaktovali jsme fakultní Oddělení pro vědu a výzkum, ale jejich vyjádření se nám získat nepodařilo. V Juniorských grantech se nedařilo Agronomické fakultě Mendelovy univerzity v Brně, která podala 7 žádostí, a v EXPRO grantech pak Středoevropskému technologickému institutu VUT s 10 žádostmi.&lt;/p&gt;
-&lt;p&gt;Dle našeho názoru z grafů a dat krystalizují instituce, které jsou, alespoň z hlediska schopnosti získávat granty GAČR, úspěšné. Dokonce bychom se neostýchali tuto úspěšnost zobecnit a např. Matematicko-fyzikální fakultu UK, Biologické centrum AV ČR nebo Fyzikální ústav AV ČR, které uspěly napříč grantovými soutěžemi, považovat v českém prostředí za prokazatelně špičkové výzkumné instituce. Nutno zmínit, že Biologickému centru se mimořádně daří navzdory tomu, že nemůže využívat výhody, kterých se dostává institucím v Praze a Brně, např. v podobě sousedství velkých univerzit či dopravní dostupnosti.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/fakulty-fil.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/fakulty-fil.png&#34; alt=&#34;fakulty fil&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 9: Filozofické fakulty univerzit&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://czexpatsinscience.cz/wp-content/uploads/2020/03/fakulty-pri.png&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://vedavyzkum.cz/images/4_grafika/fakulty-pri.png&#34; alt=&#34;fakulty pri&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obrázek 10: Přírodovědecké fakulty univerzit&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Z profesní zvědavosti jsme se podrobněji také podívali na přírodovědecké (PřF) a filozofické fakulty (FF), které jsou součástí mnoha českých univerzit. Výsledky jsou shrnuté na Obrázcích 9 a 10 pro každou soutěž zvlášť, seřazené podle počtu podaných návrhů a s uvedenou procentuální úspěšností. Mezi filozofickými fakultami se nejvíce dařilo FF MU, která ve Standardní soutěží získala nejvíc grantů a nadprůměrnou úspěšností 39 % se zařadila těsně za Filosofický ústav AV ČR &amp;ndash; nejúspěšnější instituci společenskovědních disciplín (Obrázek 5). Juniorských a EXPRO grantů bylo filozofickým fakultám uděleno příliš málo na to, abychom výsledky mohli komentovat.&lt;/p&gt;
-&lt;p&gt;Přírodovědecké fakulty se co do počtu žádostí rozdělily na ty velké (UK, MU, UP a JU) a malé (Ostrava, UJEP a Hradec Králové). Obecně se jim dařilo. Mezi velkými univerzitami byly v úspěšnosti značně nad průměrem PřF MU a JU v Českých Budějovicích. Hodnoty úspěšnosti u malých univerzit jsou zatíženy malým počtem žádostí. Znatelně pod průměrnou úspěšností 24 % se ve Standardních grantech umístila přírodověda v Olomouci s 19 % úspěšností. PřF v Olomouci se letos nedařilo ani v Juniorské soutěži, kde získala jediný grant, což odpovídá úspěšnosti 17 %. Ostatní přírodovědecké fakulty měly vyšší než průměrnou úspěšnost 30 %, nejvyšší pak PřF JU s 67 %.&lt;/p&gt;
-&lt;h2 id=&#34;shrnutí-a-výhled&#34;&gt;Shrnutí a výhled&lt;/h2&gt;
-&lt;p&gt;Představili jsme základní statistické informace o projektech GAČR s počátkem řešení v lednu 2020, které jsme zjistili z dat získaných na žádost Czexpats in Science. Dle našeho názoru by GAČR měla data a podrobné statistiky zveřejňovat z vlastní iniciativy, ať už pro zvýšení své transparentnosti a důvěryhodnosti, nebo aby napomohla vnitřní reflexi českých vědeckých institucí. GAČR by se mohla inspirovat (nebo přímo spolupracovat) s portálem 
-&lt;a href=&#34;https://starfos.tacr.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STARFOS &lt;/a&gt;Technologické agentury ČR, která nabízí o svých grantových soutěžích podobné informace, které prezentujeme v této analýze. Za jednoznačně pozitivní posun ve výročních zprávách GAČR považujeme např. zahrnutí aspoň základních statistik o rozdělení žadatelů podle genderu a oborů. V naší analýze jsme genderovou perspektivu nemohli zohlednit, neboť potřebné údaje o žadatelích nebyly v poskytnutých datech k dispozici.&lt;/p&gt;
-&lt;p&gt;Bylo by zajímavé, a pro některé naše závěry možná i vhodné, analyzovat data za delší časový úsek a tím odpovědět např. na otázku, zda-li je pražský Matfyz úspěšný dlouhodobě. Meziroční výkyvy úspěšnosti mohou být významné zvlášť u institucí s malým množstvím návrhů. Srovnání by na druhou stranu bylo komplikované podmínkami jednotlivých soutěží, které se mění z roku na rok a např. u Juniorských grantů mohou mít velký vliv na průběh soutěže. Podobná analýza však přesahuje naše stávající možnosti.&lt;/p&gt;
-&lt;p&gt;Dalšími rozměry, kterými je náš současný pohled limitován, jsou velikosti jednotlivých institucí reprezentované počtem akademických pracovníků, studentů, případně rozpočtem. Nelze tedy říci, jaká je motivace uchazečů o granty žádat (mají malý rozpočet a mnoho zaměstnanců?). Některé závěry by bylo také vhodné normalizovat vůči velikosti instituce. Podává Přírodovědecká fakulta UK nejvíce grantů, protože má oproti ostatním institucím proporčně nejvíce zaměstnanců? Nevíme. Obecně bychom ale za nejúspěšnější instituci považovali tu, která má nejvyšší poměr přijetí vůči počtu zaměstnanců.&lt;/p&gt;
-&lt;p&gt;Při optimálním nastavení hodnoticích procesů by grantové soutěže měly vědě prospívat výběrem nejlepších kandidátů a témat k mimořádné podpoře. Kevin Gross a Carl T. Bergstrom však ve svém loňském 
-&lt;a href=&#34;https://doi.org/10.1371/journal.pbio.3000065&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;článku &lt;/a&gt;&lt;em&gt;&amp;ldquo;Contest models highlight inherent inefficiencies of scientific funding competitions&amp;rdquo;&lt;/em&gt; postulují existenci kritického bodu, po jehož překonání začínají grantové soutěže vědě spíše škodit. Reálná pozice tohoto bodu se odvíjí od průměrné úspěšnosti v grantových soutěžích, která má historicky sestupný trend. Pokud úspěšnost klesne pod určitou hladinu, čas a práce investované do přípravy grantové žádosti se sice stále vyplatí vítězům soutěže, ale věda jako celek začíná strádat, neboť malá množina podpořených badatelů již nedokáže vykompenzovat množství úsilí, které do přípravy často i vysoce kvalitních projektů vložili neúspěšní žadatelé. Naše analýza např. poukazuje na vysoké množství institucí s úspěšností 0 %. Pokud GAČR udrží nebo zvýší ve svých hlavních soutěžích aktuální míry úspěšnosti, může české vědě prospívat. Jestliže se však potvrdí trend, v němž některé obory mají v Mezinárodních projektech GAČR úspěšnost hluboko pod 10 %, pak lze pochybovat o tom, zda je existence takového schématu pro rozvoj těchto oborů prospěšná. Grossův a Bergstromův argument také tvoří rub současné snahy GAČR o rozvíjení programů EXPRO a STAR, jejichž parametry sice vycházejí vstříc reálným potřebám vědců pro rozvíjení excelentních týmů (především pětiletá doba řešení), avšak děje se tak na úkor průměrné úspěšnosti žádostí, která v EXPRO aktuálně klesá pod 20 %. Pokud toto dilema nerozetne navýšení rozpočtu GAČR, mohlo by hrozit, že dobře míněné snahy o vylepšování českých grantových schémat se minou účinkem.&lt;/p&gt;
-&lt;h2 id=&#34;autoři&#34;&gt;Autoři&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Michal H. Kolář, Vysoká škola chemicko-technologická v Praze a Czexpats in Science&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Radim Hladík, Filosofický ústav AV ČR a Česká asociace pro digitální humanitní vědy (CzADH)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Zdroj:
-&lt;a href=&#34;http://czexpatsinscience.cz/blog-post/gacr_2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Czexpats in Science&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;RNDr. Michal H. Kolář, Ph.D.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://mhko.science/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michal&lt;/a&gt;(*1985) vystudoval chemii a molekulové modelování na Přírodovědecké fakultě UK a Ústavu organické chemie a biochemie AV ČR. Za podpory Nadace Alexandera von Humboldta působil ve Výzkumném centru Jülich v Německu, odkud se přesunul do Ústavu Maxe Plancka pro biofyzikální chemii v Göttingenu. Od roku 2018 je odborným asistentem na Vysoké škole chemicko-technologické v Praze, kde mj. v rámci Juniorského projektu GAČR z loňského roku studuje detaily syntézu proteinů na ribozomech.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;PhDr. Radim Hladík, Ph.D.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://twitter.com/hlageek&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Radim&lt;/a&gt;(*1980) vystudoval sociologii na Fakultě sociálních věd UK. Od roku 2008 působí na Filosofickém ústavu AV ČR v Kabinetu pro studium vědy, techniky a společnosti. Během doktorského studia absolvoval jako nositel Fulbrightova stipendia roční pobyt na Columbia University v USA, v letech 2017-2019 realizoval s podporou Japan Society for the Promotion of Science postdoktorskou stáž na National Institute of Informatics v Japonsku. V Juniorské soutěži GAČR 2020 uspěl s projektem &amp;ldquo;Funded and Unfunded Research in the Czech Republic&amp;rdquo;. V České asociaci pro digitální humanitní vědy se zasazuje o využívání digitálních a kvantitativních metod v sociálních a humanitních vědách.&lt;/p&gt;
-</description>
+      <title>Why Sociologists Should Not Bother with Theory: The Effect of Topic on Citations</title>
+      <link>/publication/hladik-2019-h/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2019-h/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Štěbetání o vědě na Twitteru: tři konference, nebo tři komunity?</title>
-      <link>/post/2019-12-09-stebetani-o-vede/</link>
-      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/post/2019-12-09-stebetani-o-vede/</guid>
-      <description>&lt;p&gt;Věda o vědě (science of science), výzkum výzkumu (research on research), metavěda (metascience), studia vědy (science studies)&amp;hellip; Ustálený a konsensuální název pro toto interdisciplinární pole bádání neexistuje. Otázky související s hodnocením vědy, jež dominují veřejné diskusi v českém prostředí, tvoří jen část širokého výzkumného portfolia, které nese tyto nálepky. Kromě širokého spektra témat a metod přispívá k interdisciplinárnímu charakteru vědy o vědě i skutečnost, že mnozí badatelé se jí začali věnovat na bázi reflexe vlastních oborů. Navzdory existenci několika dedikovaných časopisů jsou, nejefektivnějším způsobem, jak se v této oblasti zorientovat, právě mezinárodní konference.&lt;/p&gt;
-&lt;p&gt;V letošním roce důležité konference ve vědě o vědě kromě jejich tematické spřízněnosti spojuje i poněkud nešťastný prvek: všechny byly svolány na první zářijový týden. Bienální &lt;em&gt;Mezinárodní konferenci o scientometrii a informetrii&lt;/em&gt; (
-&lt;a href=&#34;https://www.issi2019.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISSI 2019&lt;/a&gt;) od jejího čtvrtého vydání v roce 1993 pořádá tehdy založená 
-&lt;a href=&#34;http://issi-society.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mezinárodní společnost pro scientometrii a informetrii&lt;/a&gt;. Mezi 2.&amp;ndash;5. zářím se v Římě odehrála po sedmnácté. Kořeny 
-&lt;a href=&#34;https://www.4sonline.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Společnosti pro sociální studia vědy&lt;/a&gt; sahají hlouběji do minulosti, existuje od roku 1975. V New Orleans se její výroční konference 
-&lt;a href=&#34;https://www.4s2019.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4S 2019&lt;/a&gt; odehrála 4.&amp;ndash;7. září. Oproti těmto etablovaným setkáním představovalo symposium 
-&lt;a href=&#34;https://www.metascience2019.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metascience 2019&lt;/a&gt; konané 5.&amp;ndash;8. září na 
-&lt;a href=&#34;https://www.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanfordově univerzitě&lt;/a&gt; v USA úplného nováčka.&lt;/p&gt;
-&lt;p&gt;Souběh těchto událostí sice mohl leckomu zhatit cestovní plány, zároveň ale vytvořil takřka experimentální nastavení, v němž bylo možné sledovat tři jevy za v podstatě stejných podmínek. Ze zvědavosti jsem provedl aspoň drobné a rychlé srovnání mediální aktivity všech tří konferencí na sociální síti 
-&lt;a href=&#34;https://twitter.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twitter&lt;/a&gt;. Profesní bublina, přezdívaná &amp;ldquo;akademický Twitter&amp;rdquo;, se totiž stala de facto hlavním komunikačním kanálem odborných konferencí. Jako data mi posloužily tweety za období 30. srpna až 9. září. Při konferenčním štěbetání na Twitteru bývá dobrým zvykem označovat příspěvky specifickým hashtagem (#), který v podstatě slouží jako tematický filtr a umožňuje, aby se tweetující na síti navzájem našli a sdíleli stejné fórum. V tomto případě jsem tedy vybral tweety označené jako #issi2019, #4s2019 a #metascience2019.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-12-09-stebetani-o-vede/index_files/user.png&#34; alt=&#34;tweeters&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Graf 1: Souhrnné počty tweetujících a retweetujících uživatelů Twitteru podle jednotlivých konferencí.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Graf 1 ukazuje souhrnné počty tweetujících a retweetujících uživatelů podle jednotlivých konferencí. Počty uživatelů značí relativní velikost konferencí na Twitteru. Nemusí však odrážet skutečnou velikost jednotlivých setkání, jelikož nelze vyloučit možnost, že podíl uživatelů Twitteru se mezi komunitami liší. Navíc souhrn zahrnuje jakkékoliv uživatele sociální sítě. V případě retweetujících uživatelů se dokonce částečně předpokládá, že se rekrutují z mediálního obecenstva spíše než z řad přímých účastníků. Nejvíce unikátních tweetujících uživatelů měla konference &lt;em&gt;4S&lt;/em&gt; v New Orleans, nejméně scientometrická konference v Římě. Rozdíly však nejsou propastné a počty se pohybují v řádu stovek. Zajímavé je, že poměr mezi původními a retweetujícími uživateli je v případě &lt;em&gt;4S&lt;/em&gt; a &lt;em&gt;ISSI&lt;/em&gt; srovnatelný a nejmenší konference tedy dokázala získat, v relativních počtech, stejný ohlas jako ta největší. V jiných řádech se tento poměr projevil na konferenci Metascience na Stanfordově univerzitě, kde velikost sdílejícího publika na Twitteru byla oproti původním tweetujícím více než desetinásobná.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-12-09-stebetani-o-vede/index_files/no_tweets.png&#34; alt=&#34;number of tweets&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Graf 2: Počty tweetů a retweetů v čase podle jednotlivých konferencí.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Dynamiku tweetování a retweetování v čase zachycuje Graf 2. Namísto unikátních uživatelů ukazuje počty jednotlivých příspěvků podle typu tweet/retweet. Tato statistika je tedy náchylnější k ovlivnění mimořádně aktivními uživateli, kteří produkují více příspěvků, ale lépe zachycuje intenzitu i rezonanci komunikace. Zde lze z rozdílů mezi křivkami značícími oba typy příspěvků vyčíst, že navzdory největšímu absolutnímu počtu unikátních tweetujících uživatelů (Graf 1) konference &lt;em&gt;4S&lt;/em&gt; rezonovala v prostoru Twitteru méně než &lt;em&gt;ISSI&lt;/em&gt; a &lt;em&gt;Metascience&lt;/em&gt;. &lt;em&gt;ISSI&lt;/em&gt; byla sice v absolutních číslech drobečkem, ale příspěvky s jejím hashtagem měly na Twitteru ohlas, o čemž svědčí příznivý poměru mezi tweety a retweety. Jelikož se jednalo o konferenci s nejužší specializací, lze spekulovat i o tom, že převaha retweetů nad tweety v případě &lt;em&gt;ISSI&lt;/em&gt; souvisí s větší tematickou soudržností jejího publika. &lt;em&gt;Metascience&lt;/em&gt; se vyznačovala nejvyšší intenzitou i rezonancí komunikace. Navzdory menšímu počtu unikátních uživatelů (Graf 1) dosáhla na největší počet tweetů (7. září 2019) i retweetů (8. září 2019) i na nejlepší poměr mezi oběma druhy příspěvků. Za úspěchem Metascience může stát i skutečnost, že měla formu symposia s programem složeným kromě posterů výlučně ze zvaných přednášek, a mohla tak lépe těžit z efektu akademických celebrit.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-12-09-stebetani-o-vede/index_files/issi.jpg&#34; alt=&#34;issi&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Graf 3: Nejfrekventovanější slova s hashtagem #issi2019.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-12-09-stebetani-o-vede/index_files/fours.jpg&#34; alt=&#34;4S&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Graf 4: Nejfrekventovanější slova s hashtagem #4s2019.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-12-09-stebetani-o-vede/index_files/meta.jpg&#34; alt=&#34;metascience&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Graf 5: Nejfrekventovanější slova s hashtagem #metascience2019.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;V posledním kroku této minianalýzy jsem se zaměřil na obsah tweetů, který je zde reprezentován formou tzv. slovních mraků, tedy výběru nejfrekventovanějších slov, v němž velikost fontu odráží rozdíly v počtu výskytů. Na první pohled zaujme rozdíl mezi &lt;em&gt;4S&lt;/em&gt; (Graf 4) a dalšími dvěma konferencemi. Neuspořádanost mraku spočívající v řadě slov s velmi podobnou frekvencí naznačuje, že &lt;em&gt;4S&lt;/em&gt; byla tematicky široká bez jednoznačného zaměření. Obsahově je pak mezi frekventovanými slovy patrné, že účastníci 4S hojně tweetovali o konferenci samotné, tedy o organizačních záležitostech a místě konání. Jako její specifická slova můžeme identifikovat např. &amp;ldquo;media&amp;rdquo;, &amp;ldquo;technology&amp;rdquo; a &amp;ldquo;politics&amp;rdquo;. Z perspektivy sociologie vědy bychom tedy mohli usuzovat, že na konferenci 4S se bežně pracuje s tzv. externalistickým pojetím, které zdůrazňuje formování a fungování vědy v interakci s jinými oblastmi lidské činnosti. Oproti tomu u* ISSI* (Graf 3) a *Metascience* (Graf 5) převažuje internalistický přístup, jenž se snaží uchopit vědecký provoz v jeho vlastních pojmech. Slovní mraky u těchto dvou konferencí mají obdobný tvar složený z dominantních centrálních termínů obklopených ostatními slovy s postupně klesající frekvencí. Vizuální dojem tedy svědčí o koherentnějším zaměření obou konferencí, avšak jsou zde přesto patrné sémantické rozdíly, které potvrzují odlišnost specializací. V případě ISSI se po obecnějších termínech dostávají do popředí slova související s bibliometrií - &amp;ldquo;citation&amp;rdquo;, &amp;ldquo;altmetrics&amp;rdquo;, &amp;ldquo;paper/papers&amp;rdquo;, &amp;ldquo;impact&amp;rdquo; - a empirickým zaměřením, &amp;ldquo;data&amp;rdquo;, &amp;ldquo;research&amp;rdquo;, &amp;ldquo;analysis&amp;rdquo;. U *Metascience* se zase výrazně projevuje její deklarovaný zájem o tzv. replikační krizi - &amp;ldquo;research&amp;rdquo;, &amp;ldquo;replication&amp;rdquo;, &amp;ldquo;reproducibility&amp;rdquo;, &amp;ldquo;results&amp;rdquo; - a statusu vědy - &amp;ldquo;science&amp;rdquo;, &amp;ldquo;scientific&amp;rdquo;, &amp;ldquo;scientists&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Rozdíly v intenzitě komunikace na Twitteru i v jejím obsahu tak postupně odhalují, že kalendářní překryv tří významných konferencí o vědě nebyl jen selháním jejich plánovačů, ale do jisté míry plyne ze štěpení širokého pole vědy o vědě do několika badatelských komunit. Jejich škálu navíc zde uvedené příklady ani nevyčerpávají. Svébytnou tradici výzkumu pěstují také filosofie a historie vědy, jejichž největší fórum se minulo se zde prezentovanými setkáními o pouhý měsíc. 
-&lt;a href=&#34;http://flu.cas.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filosofický ústav AV ČR&lt;/a&gt; totiž v Praze 5.&amp;ndash;10. srpna 2019 hostil kongres CLMPST 2019 (
-&lt;a href=&#34;http://clmpst2019.flu.cas.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;International Congresses on Logic, Methodology and Philosophy of Science&lt;/a&gt;). Filosofická perspektiva na vědu získává opět na popularitě kvůli 
-&lt;a href=&#34;https://www.avcr.cz/cs/veda-a-vyzkum/aktuality/VPraze-zacne-mimoradny-filosoficky-kongres-o-vedeckem-vyzkumu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;řadě témat&lt;/a&gt;, v nichž se vědecký a technologický pokrok dostává mimo hranice zavedených etických a myšlenkých schémat. Po filosofickém kongresu se i v příštím roce se do vědy o vědy opět otiskne česká stopa, neboť Akademie věd ČR v Praze pořádá další ročník zde představené výroční konference 
-&lt;a href=&#34;https://www.easst4s2020prague.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4S&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-12-09-stebetani-o-vede/index_files/retweets.jpg&#34; alt=&#34;retweets&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Graf 6: Tři nejčastěji sdílené tweety.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Tento blog však neukončím pozvánkou na pražské setkání, nýbrž vyhlášením pomyslných vítězů o nejvíce sdílené tweety pro každý konferenční okruh. V případě &lt;em&gt;4S&lt;/em&gt; a &lt;em&gt;ISSI&lt;/em&gt; jsou to převážně vzkazy provozního typu. Řádově populárnější jsou tweety z konference &lt;em&gt;Metascience&lt;/em&gt;, které se na prostoru 280 znaků snaží destilovat poznatky a diskuse z probíhající konference. Absolutním vítězem je pak 
-&lt;a href=&#34;https://twitter.com/gmusser/status/1170466414345375746/photo/1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tweet&lt;/a&gt; shrnující přednášku o službě Google Scholar. Tato služba podle autora studie způsobila, že počty citací jsou více koncentrovány. Zkrátka nejcitovanější byl tweet o citacích.&lt;/p&gt;
-</description>
+      <title>Exploring Textual and Social Hierarchies in Czech Sociological Articles</title>
+      <link>/publication/hladik-2018-d/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2018-d/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Za co se rozdávaly RIV body? Každému podle jeho možností!</title>
-      <link>/post/2019-06-17-za-co-se-rozdavaly-riv-body/</link>
-      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/post/2019-06-17-za-co-se-rozdavaly-riv-body/</guid>
-      <description>&lt;p&gt;V novém Hodnocení 2017+ závisí jeho bibliometrický pilíř výlučně na indikátorech ze soukromé databáze 
-&lt;a href=&#34;https://apps.webofknowledge.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Web of Science (WoS)&lt;/a&gt;. Již za dob kafemlejnku postupně narůstal její význam pro evaluaci české vědy a výzkumu, když výpočetní vzorce pro RIV body začaly přikládat váhu impakt faktoru (přesněji: pozici časopisu v oboru dle impakt faktoru) - tedy statistice o citovanosti časopisu vypočítané na základě údajů z WoS. Častou námitkou proti využívání této databáze pro hodnocení vědy je její nízká relevance pro společensko-vědní a humanitní obory. Tento blog si původně kladl za cíl ověřit tato tvrzení o znevýhodnění českých sociálních a humanitních věd. Ale pohled na nová data z Hodnocení 2017+ ukázal na jiné zneklidňující údaje o předchozím způsobu hodnocení vědy.&lt;/p&gt;
-&lt;p&gt;Je na bíledni, že co do počtu časopisů, které jsou evidovány ve WoS, jsou velké oborové skupiny STEM (přírodní vědy, technické a medicínské disciplíny) v převaze oproti SSHA (sociální a humanitní vědy a umělecké obory). Ale na úrovni jednotlivých disciplín tato jednoduchá rovnice přestává platit. Podle 
-&lt;a href=&#34;http://www.vyzkum.cz/storage/att/E6EF7938F0E854BAE520AC119FB22E8D/Prevodnik_oboru_Frascati.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;způsobu evidence oborů uplatněného v Hodnocení 2017+&lt;/a&gt; na tom leckteré přírodovědné a inženýrské disciplíny nejsou v rámci WoS o nic lépe než humanitní vědy. A naopak, některé tradiční sociálně-vědní obory jsou ve WoS pokryty relativně velkoryse - ekonomové mají například větší publikační prostor (měřeno na počty časopisů bez zohlednění skutečného počtu otištěných článků) než fyzikové či chemici. Záleží tedy i na tom, kudy narýsujeme oborové hranice.&lt;/p&gt;
-&lt;p&gt;Jak se to tedy má s onou námitkou, která v podstatě tvrdí, že úspěšnost v bibliometrických indikátorech založených na WoS se odvíjí od parametrů samotné databáze? Data z Hodnocení 2017+ ukazují, že mezi oborovou reprezentativností WoS a počty článků, které čeští autoři v jednotlivých oborech publikovali, skutečně existuje systematický vztah. A ne ledajaký. Vyjádřeno korelačním koeficientem, činí tento vztah 0.83 (přičemž +1 značí perfektní pozitivní vztah, -1 perfektní negativní vztah, 0 pak absenci vztahu). Byť korelace přísně vzato nic neříká o kauzalitě či o jejím směru, v tomto případě jediné rozumné vysvětlení je, že počty českých článků umístěných v databázi WoS zhruba odpovídají velikosti jejích oborových kategorií. Naopak je těžko uvěřitelné, že čínsko-americká firma provozující WoS nastavila velikost kategorií své databáze podle toho, kde čeští vědci rádi publikují.&lt;/p&gt;
-&lt;p&gt;Argument, že humanitní a sociální vědy jsou v početní nevýhodě, protože mají v databázi WoS málo prostoru, tak docela neplatí. Pokud bychom neházeli vědní obory do jednoho pytle, ale měřili zvlášť STEM a SSHA obory, pak by se ukázalo, že korelace mezi velikostí kategorie WoS a počtem výsledků ve STEM oborech je bezmála dokonalá (0.97) a naznačuje, že měříme totožné veličiny. Jinými slovy: při počítání publikací ve WoS záleží u STEM oborů na počtu časopisů ještě více, než tomu je v případě věd společenských a humanitních. V SSHA oborech představuje velikost kategorií WoS o něco silnější efekt, ale celkový vztah je mezi oběma proměnnými slabší. Jako vysvětlení pro nižší úspěšnost SSHA oborů uvedený argument tedy neobstojí. Ovšem samotné jádro námitky, totiž že při srovnávání oborů pomocí počítání publikačních záznamů ve WoS záleží na velikosti oborových kategorií, je zcela na místě. Pokud by si 
-&lt;a href=&#34;https://www.vyzkum.cz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RVVI &lt;/a&gt;nechala každý rok vyjet zprávu o stavu databáze Web of Science, bývala by si mohla odpustit celý český informační systém o výsledcích.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-06-17-za-co-se-rozdavaly-riv-body/index_files/obr1.jpg&#34; alt=&#34;obr1&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obr. 1: Zastoupení oborů ve WoS a ve výsledcích Hodnocení 2017+&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Přiložený korelační diagram situaci s počítáním &amp;ldquo;záseků&amp;rdquo; ve WoS vcelku jasně ilustruje. Přerušovaná přímka modeluje na logaritmické škále vztah mezi počtem umístěných článků a velikostí kategorií ve WoS po převodu do oborové klasifikace OECD (FORD). Obory nad přímkou si vedou lépe než stanovuje predikce, ale bohužel žádný nevystupuje výrazně z řady. Těžko by se tedy, aspoň na této úrovni oborového členění, hledal v Česku obor, který by co do počtu publikací překonával přirozené limity vymezené počtem časopisů, v nichž mohou vědci své práce publikovat. Jinak tomu je ve spodní části diagramu, kam se umisťují obory, které si vedou hůře, než kolik by jim model předpovídal. SSHA obory stahují celý model dolů a řada z nich zůstává hluboko pod úrovní srovnatelně velkých (z hlediska zastoupení ve WoS) STEM oborů. Nezbývá tedy než konstatovat, že potenciál, který jim WoS poskytuje, nevyužívají. Původní kafemlejnek, který k impakt faktorům příliš nepřihlížel, byl k SSHA oborům přívětivější, neboť nedostatky na poli WoS mohly dohánět třeba v domácích recenzovaných časopisech. Na čemž v principu není nic špatného, neboť SSHA produkují vědění, které může být relevantnější pro národní diskuse než pro globalizovanou vědu, 
-&lt;a href=&#34;https://vedavyzkum.cz/blogy-a-rozhovory/czexpats-in-science/expati-a-smysl-lokalni-spolecenske-vedy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;jak nedávno připomněl Jakub Eberle&lt;/a&gt;. Zde se omezíme na prosté konstatování o stávající situaci, aniž bychom hledali příčiny a motivace.&lt;/p&gt;
-&lt;p&gt;Byla by situace jiná, pokud by se kromě počtů zohledňovala kvalita výstupů? Pozdní kafemlejnek se pokoušel o náznak měření kvality s pomocí vážených impakt faktorů. Na vládních datech z Hodnocení 2017+ si můžeme tento postup aspoň částečně přiblížit, když místo JIF (Journal Impact Factor) použijeme nově aplikovanou metriku AIS (Article Influence Score). Byť AIS metrika penalizuje některé neduhy impakt faktoru, přesto spolu obě míry také korelují - a sdělují tedy podobnou, byť ne nutně identickou informaci (
-&lt;a href=&#34;http://metodikahodnoceni.blogspot.com/2019/03/okna-vesmiru-vedeckych-casopisu-dokoran.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; podrobně o tom psal Daniel Münich&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Pokud akceptujeme premisu, že kvalitní výsledky se vyskytují v horním decilu dle AIS a zaměříme se pouze na ně, žádné velké překvapení se nekoná. Při počítání jednotlivých publikačních kusů vše vypadá v zásadě stejně. Korelace je sice o něco nižší, ale pokud z výpočtu odstraníme 5 SSHA oborů, které v prvním AIS decilu své kategorie neumístily ani jeden článek, stále zůstává na vysoké úrovni (0.79). Kafemlejnkové hodnocení vědy založené na počítání publikačních kusů vážených podle WoS zkrátka příliš vědecké nebylo. Z hlediska oborů RIV body neodrážely ani vědecké zásluhy, ani společensky definované potřeby, nýbrž dostupné publikační možnosti ve WoS - a tedy o kvalitě zde pěstovaných oborů neposkytovaly žádnou hodnotnější informaci.&lt;/p&gt;
-&lt;p&gt;Přináší nová metodika hodnocení v tomto ohledu nějakou změnu? Kromě obecného závazku provádět mimo jiné také bibliometrické hodnocení neobsahuje žádné jeho konkrétní parametry. A to je možná dobře, neboť tak zůstává prostor celý systém ladit. Momentálně může mít tento stav nejistoty i blahodárné účinky. V situaci, ve které není jasné, jaká kritéria hodnocení budou použita, se snaha o poctivě odpracovaný výzkum stává racionální strategií, byť vsadit lze i na jiné cesty. Pokud se však Metodika 17+ bude držet měřících analytických postupů použitých při její první implementaci, pak podstatnou metrikou nadále nebudou počty, nýbrž podíly publikací, které se umístily ve vybraném segmentu (aktuálně v horním decilu WoS dle AIS) dané oborové kategorie. Druhá ilustrace ukazuje, že při těchto kalkulacích se vztah mezi sledovanou metrikou (podílem publikací) a velikostí oborové kategorie WoS zcela vytrácí. A to je dobrá zpráva.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-06-17-za-co-se-rozdavaly-riv-body/index_files/obr2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Obr. 2: Zastoupení oborů ve WoS a podíl nejlepších výsledků dle Article Influence Score v Hodnocení 2017+&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Co nová metodika měří, to tak docela nevíme. Může to být kvalita, nebo aspoň nějaký její rozměr. Možná jsou to lidské či finanční zdroje, kterými daný obor disponuje. Anebo jiné proměnné. 
-&lt;a href=&#34;https://vedavyzkum.cz/blogy-a-rozhovory/blogy-a-rozhovory/ceske-hvezdicky-v-galaxii-vedeckych-casopisu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Třeba množství českých časopisů ve WoS&lt;/a&gt;. Ale zdá se, že jsme aspoň pod rouškou hodnocení české vědy přestali měřit velikost kategorií v databázi WoS. To může být malý krok pro scientometrii, ale velký skok pro bibliometrické hodnocení české vědy.&lt;/p&gt;
-</description>
+      <title>Who Is Afraid of the Platforms? Adoption and Strategies of Use of Social Media by Politicians in the Czech Republic</title>
+      <link>/publication/mackova-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/mackova-2018/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Když kovářova kobyla chodí bosa aneb Praktická lekce z informetrie</title>
-      <link>/post/2019-01-21-prakticka-lekce-informetrie/</link>
-      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/post/2019-01-21-prakticka-lekce-informetrie/</guid>
-      <description>&lt;p&gt;Na motivy skutečného příběhu o vzniku nového časopisu pro kvantitativní výzkum vědy Quantitative Science Studies žádný hollywoodský trhák nevznikne. Z pohledu vcelku nezáživné specializace, kterou hodnocení vědy je, však tato anabáze nepostrádá dramatický náboj.&lt;/p&gt;
-&lt;p&gt;Vznešené nadosobní ideje otevřené vědy se zde střetávají s přízemní ziskuchtivostí vydavatelského giganta na poli vědecké literatury, nadnárodní korporace Elsevier. Realita je bezpochyby složitější, ale jako hollywoodská zkratka by taková upoutávka mohla fungovat.&lt;/p&gt;
-&lt;p&gt;Časopis 
-&lt;a href=&#34;https://www.journals.elsevier.com/journal-of-informetrics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal of Informetrics&lt;/a&gt; patří ve svém oboru k hvězdám stáje odborných periodik vydávaných pod hlavičkou Elsevier. V roce 2017 činil jeho pětiletý impakt faktor 3.238. V databázích &lt;em&gt;Web of Science a Scopus&lt;/em&gt; se tak s přehledem umisťuje na předních příčkách oborově příslušných seznamů. Dosažený impakt faktor i jeho scopusovská alternativa, SJR index, s hodnotou 2.06 mu tak zajišťují pozici v 1. kvartilu obou žebříčků. Takto situovaný časopis by se rozhodně měl stát pomyslnou metou v publikování českých vědců podle aktuálních parametrů 
-&lt;a href=&#34;https://hodnoceni17.rvvi.cz/www/biblio-obory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metodiky 17+&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;V roce 2018 se však na fasádě úspěchu relativně mladého časopisu (založeného roku 2007) objevily trhliny. Redakční rada časopisu, složená bez výjimky z předních badatelů na poli informetriky, scientometrie a bibliometrie, vystupňovala své požadavky na změny v profilu časopisu. Jádrem sporu mezi redakční radou a vydavatelem se staly dva body: otevřená data a otevřený přístup.&lt;/p&gt;
-&lt;p&gt;Redakční rada žádala, aby citační data časopisu, tedy bibliografické seznamy sestavované autory článků, byla volně dostupná a aby se časopis připojil k 
-&lt;a href=&#34;https://i4oc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Iniciativě za otevřené citace&lt;/a&gt;. K této iniciativě se přihlásilo mnoho vydavatelů odborné literatury, včetně velkých hráčů jako SAGE Publishing, Springer Nature, Taylor &amp;amp; Francis nebo Wiley. Pro scientometrii představují citační data denní chléb a patří k základním proměnným, které vstupují do většiny analýz vědecké literatury. Journal of Informetrics tak působil jako pověstná kovářova kobyla. Podstatnou část svého úspěchu časopis postavil na výzkumu citačních dat, vlastní bibliografické seznamy však poskytoval pouze za úplatu. Otevřený přístup k samotným článkům pak podle redakční rady komplikovala výše poplatků (1800 dolarů) za zveřejnění článků v režimu zlatého přístupu, tedy poskytnutí textu čtenářům bez potřeby předplatného. Podle členů rady bylo nezbytné snížit finanční bariéru pro tento způsob publikování. Elsevier v říjnu 2018 tyto požadavky ve všech podstatných aspektech 
-&lt;a href=&#34;https://www.documentcloud.org/documents/5683714-Letter-to-JOI-Board-09Oct18-NN.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;odmítl&lt;/a&gt;. Argumentoval především finanční rozvahou a potřebou investic do vlastních nástrojů a služeb, byť tato společnost hospodaří s obrovskou mírou ziskovosti (téměř 
-&lt;a href=&#34;http://www.relx.com/~/media/Files/R/RELX-Group/documents/press-releases/2018/relx-group-results-2017-pressrelease.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;37 % v roce 2017&lt;/a&gt;). Vydavatel také odmítl možnost, aby redakční rada časopis plně převzala.&lt;/p&gt;
-&lt;p&gt;Reakce na ztroskotaná jednání byla radikální. 10. ledna 2019 redakční rada oznámila svou 
-&lt;a href=&#34;https://www.docdroid.net/783elN0/resignation-final-1.docx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hromadnou rezignaci&lt;/a&gt;. Jen o pár dní později, 14. ledna 2019, členové rady oznámili vznik nového časopisu 
-&lt;a href=&#34;https://www.mitpressjournals.org/qss&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Quantitative Science Studies&lt;/em&gt;&lt;/a&gt;, pro který do začátku získali finanční podporu 
-&lt;a href=&#34;https://www.scienceguide.nl/2019/01/editorial-board-of-informetrics-resigns-at-elsevier-and-starts-new-journal/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;německých vědeckých institucí&lt;/a&gt;. Vlastnictví časopisu se ujala uznávaná profesní scientometrická asociace 
-&lt;a href=&#34;http://issi-society.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ISSI&lt;/a&gt; a vydavatelské zázemí poskytl prestižní 
-&lt;a href=&#34;https://mitpress.mit.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT Press&lt;/a&gt;. Časopis bude vycházet plně v režimu otevřeného přístupu a zvládne to za poplatky na téměř třetinové úrovni oproti předchozímu časopisu. Elsevier smířlivě 
-&lt;a href=&#34;https://www.elsevier.com/connect/about-the-resignation-of-the-journal-of-informetrics-editorial-board&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;popřál novému projektu mnoho štěstí&lt;/a&gt; a hledá nové redaktory a radní pro svůj časopis, který ale aktuálně zůstává, jak uvedl bývalý člen rady Vincent Larivière pro &lt;em&gt;Nature&lt;/em&gt;, &amp;ldquo;prázdnou skořápkou&amp;rdquo;. Na vědecký Hollywood je to tedy &lt;em&gt;happy end&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Ale dobrý příběh by měl mít i ponaučení. Co by si z něj mohli odnést hodnotitelé české vědy? I na nový časopis pod záštitou světové scientometrické elity by bylo možné opět použít příměr o kovářově kobyle. V tomto případě proto, že nové periodikum, které s vysokou pravděpodobností bude patřit k oborové špičce, je z perspektivy &lt;em&gt;Metodiky 17+&lt;/em&gt; naprostá nula bez dostatečných bibliometrických atributů. Brzy se jistě ve &lt;em&gt;Web of Science a Scopus&lt;/em&gt; objeví a každý badatel by mohl být na publikaci už v prvních letošních číslech &lt;em&gt;Quantitative Science Studies&lt;/em&gt; právem hrdý, ale taková publikace by zatím nedala ani na &amp;ldquo;mizerný&amp;rdquo; 4. kvartil.&lt;/p&gt;
-&lt;p&gt;Kafemlejnek možná narušil klientelismus a nepotismus v české vědě, ale zároveň těmto metodám řízení poskytl možnost schovávat se za objektivní počty. Metodika 17+ a specificky její bibliometrický pilíř představují jednoznačný pokrok. Neptá se už jedinců, &amp;ldquo;&lt;em&gt;Kolik&lt;/em&gt; toho letos máš?&amp;rdquo; Ptá se institucí, &amp;ldquo;Kde publikujete?&amp;rdquo; Oba systémy hodnocení však zapomínají, že scientometrické &amp;ldquo;kolik&amp;rdquo; a &amp;ldquo;kde&amp;rdquo; mají sloužit jen jako nevyhnutelně nedokonalé indikátory toho, co je dobrá věda. Vsadil bych podkovy, že velmi kvalitní výzkum bibliometrických indikátorů se v příštích letech bude (mimo jiné) objevovat v pro &lt;em&gt;Metodiku 17+&lt;/em&gt; neviditelném časopise scientometrických rebelů.&lt;/p&gt;
-</description>
+      <title>Zdrojový kd́ jako liter&#39;ń&#39;iéchnologie? O vytv&#39;ař́&#39;i ft́ů v digit&#39;alnḿ vźkumu</title>
+      <link>/publication/hladik-2017/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Powers That Tweet: Social Media as News Sources in the Czech Republic</title>
+      <link>/publication/hladik-2017-a/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2017-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Origináln ́Retro. Fonografick&#39;T́echnologie a Subkulturn&#39;iéchniky Času v Northern Soulu</title>
+      <link>/publication/hladik-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Too Much Buzz about Nothing? Uses of Social Media in Czech News Production</title>
+      <link>/publication/stetka-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/stetka-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memories of the States, Histories of the Historians</title>
+      <link>/publication/hladik-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epistemologies of Spaces and Places. An Introduction</title>
+      <link>/publication/hladik-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2014-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vážn,́ Nev&#39;ń&#39;e ́Znev&#39;až́&#39;e Vóm&#39;in&#39;́&#39;i ́Po-́Socialistick&#39;e Kinemógrafii</title>
+      <link>/publication/hladik-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Místo a Pohyb Věděn</title>
+      <link>/publication/hladik-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Way We Applauded: How Popular Culture Stimulates Memory of the Socialist Past in Czechoslovakia - the Case of the Television Serial Vyprávěj and Its Viewers</title>
+      <link>/publication/reifova-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/reifova-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Za Hranice Mediálņ́h Technologi&#39;á Oborů: Současn&#39;eř́&#39;isṕy k Ž&#39;anr</title>
+      <link>/publication/hladik-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Theory&#39;s Travelogue: Post-Colonial Theory in Post-Socialist Space</title>
+      <link>/publication/hladik-2011/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traumatické Komedie: Politika Pamêti v Českḿ Filmu</title>
+      <link>/publication/hladik-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Between Resentment and Forgiveness: Public Histories in Czech and South African Transitions</title>
+      <link>/publication/hladik-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Day of Action Against the IMF and World Bank, Prague, September 26 (S26), 2000</title>
+      <link>/publication/hladik-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/hladik-2008/</guid>
+      <description></description>
     </item>
     
   </channel>

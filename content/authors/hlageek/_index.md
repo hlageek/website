@@ -23,7 +23,9 @@ education:
 interests:
 - Scholarly Communication
 - Quantitative Science Studies
-- Science Funding and Evaluation
+- Science Funding
+- Science Evaluation
+- Open Science
 - Text Mining
 - Computational Social Sciences
 - Digital Humanities

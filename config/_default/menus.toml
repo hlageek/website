@@ -23,6 +23,20 @@
   name = "bio"
   url = "about/"
   weight = 40
+  identifier = "bio"
+
+
+[[main]]
+  name = "about"
+  url = "about/#about"
+  parent = "bio"
+  weight = 40
+  
+[[main]]
+  name = "affiliations"
+  url = "about/#affiliations"
+  parent = "bio"
+  weight = 40
 
 
 
