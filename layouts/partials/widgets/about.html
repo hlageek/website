@@ -8,6 +8,11 @@
   {{ $author = $page.Params.author }}
 {{end}}
 
+
+
+
+
+
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
@@ -50,7 +55,24 @@
 
       </div>
 
-      <ul class="network-icon" aria-hidden="true">
+      
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
+    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+
+
+
+
+
+
+    {{ $person_page.Content }}
+
+<span>
+<ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
@@ -72,15 +94,9 @@
         </li>
         {{ end }}
       </ul>
+</span>
 
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
 
-    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
-
-    {{ $person_page.Content }}
 
     <div class="row">
 

@@ -30,13 +30,13 @@ interests:
 - Learning <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a>
 
 organizations:
-- name: Centre for Science, Technology, and Society Studies
+# - name: Centre for Science, Technology, and Society Studies
 #  url: "http://stss.flu.cas.cz/"
 # - name: Institute of Philosophy
 #   url: "http://www.flu.cas.cz/"
 # - name: Czech Academy of Sciences
 #   url: "http://www.avcr.cz/"
-role: researcher in science studies<br>DH & OA coordinator
+role: science studies researcher<br>DH & OA coordinator
 social:
 - icon: user-tie
   icon_pack: fas
