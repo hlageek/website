@@ -32,10 +32,10 @@ interests:
 organizations:
 - name: Centre for Science, Technology, and Society Studies
   url: "http://stss.flu.cas.cz/"
-- name: Institute of Philosophy
-  url: "http://www.flu.cas.cz/"
-- name: Czech Academy of Sciences
-  url: "http://www.avcr.cz/"
+# - name: Institute of Philosophy
+#   url: "http://www.flu.cas.cz/"
+# - name: Czech Academy of Sciences
+#   url: "http://www.avcr.cz/"
 role: researcher in science studies<br>DH & OA coordinator
 social:
 - icon: user-tie
