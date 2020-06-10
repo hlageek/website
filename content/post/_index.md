@@ -1,7 +1,7 @@
 ---
 title: Blog
-subtitle: "Various posts in Czech and English"
+subtitle: "I am a very sporadic blogger."
 page_type: "post"
-view: 3
+view: 2
 ---
 

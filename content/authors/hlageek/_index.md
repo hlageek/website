@@ -24,7 +24,7 @@ interests:
 - Scholarly Communication
 - Quantitative Science Studies
 - Science Funding and Evaluation
-- Text Analysis
+- Text Mining
 - Computational Social Sciences
 - Digital Humanities
 - Learning <a href="https://www.r-project.org/"><i class="fab fa-r-project"></i></a>
@@ -32,10 +32,10 @@ interests:
 organizations:
 - name: Centre for Science, Technology, and Society Studies
   url: "http://stss.flu.cas.cz/"
-# - name: Institute of Philosophy
-#   url: "http://www.flu.cas.cz/"
-# - name: Czech Academy of Sciences
-#   url: "http://www.avcr.cz/"
+- name: Institute of Philosophy
+  url: "http://www.flu.cas.cz/"
+- name: Czech Academy of Sciences
+  url: "http://www.avcr.cz/"
 role: researcher in science studies<br>DH & OA coordinator
 social:
 - icon: user-tie
@@ -64,7 +64,7 @@ social:
   link: https://osf.io/szema/
 
 ---
-<script defer src="/static/fontawesome/fontawesome-all.js"></script>
+
 Radim Hladík is a researcher at the [Institute of Philosophy](http://www.flu.cas.cz/) of the [Czech Academy of Sciences](http://www.avcr.cz/) (IP CAS) in Prague. His research interests span the quantitative studies of science, text analytics, digital humanities, media studies, and scholarly communication. He is currently the principal investigator on the [Czech Science Foundation](https://gacr.cz/) project "Funded and Unfunded Research in the Czech Republic: Scientometric Analysis and Topic Modeling" and the coordinator of the [LINDAT/CLARIAH-CZ](https://clariah.lindat.cz/) working group at IP CAS. He is also an editor of the [Theory of Science journal](http://teorievedy.flu.cas.cz/index.php/tv) and the chair of the [Czech Association for Digital Humanities](https://www.czadh.cz/).
 
 Radim Hladík earned his MA in Media Studies at the [Faculty of Social Sciences](https://fsv.cuni.cz/) of [Charles University](https://cuni.cz/) in Prague, where he also received his PhD. in Sociology in 2011. He was a [Fulbright](https://www.fulbright.cz/) visiting student researcher at the Department of Sociology at [Columbia University](https://www.columbia.edu/) (New York, USA) in 2009-2010 and a [JSPS](https://www.jsps.go.jp/english/) postdoctoral fellow at the [National Institute of Informatics](https://www.nii.ac.jp/) (Tokyo, Japan) in 2017-2019.
