@@ -10,4 +10,4 @@ title: "Curriculum vitae"
 
 Last update: January 2020
 
-<a href="/about/affiliations_files/2020-01-01-hladik_cv_pdf">Download CV&nbsp;<i class="fas fa-download"></i></a>
+<a href="/about/affiliations_files/2020-01-01-hladik_cv.pdf">Download CV&nbsp;<i class="fas fa-download"></i></a>
