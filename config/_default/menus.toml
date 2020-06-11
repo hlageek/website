@@ -30,13 +30,19 @@
   name = "about"
   url = "about/#about"
   parent = "bio"
-  weight = 40
+  weight = 50
   
 [[main]]
   name = "affiliations"
   url = "about/#affiliations"
   parent = "bio"
-  weight = 40
+  weight = 55
+  
+[[main]]
+  name = "cv"
+  url = "about/#resume"
+  parent = "bio"
+  weight = 56
 
 
 
