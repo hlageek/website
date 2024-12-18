@@ -59,7 +59,7 @@ Vlastnosti bibliometrických map omezují jejich využitelnost pro následné ap
 Konkrétně jsme se například v rámci projektu GAČR zabývali otázkou, do jaké míry projektové financování vykazuje sklon preferovat či upozaďovat různé typy vědeckého poznání.
 Pro takový sociologický výzkum však bibliometrické sítě nemohou nabídnout více než alternativní variantu oborového členění.
 Abychom mohli zkoumat vztahy mezi znalostním a sociálním prostorem vědy na kontinuální škále, potřebovali jsme zcela nový postup.
-Kombinaci analytických postupů vypůjčených z různých vědních oblastí se nám nakonec podařilo vypracovat nový protokol pro mapování vědy, jenž překonává stávající omezení klasifikačních i empiricky založených metod a zároveň zachovává jejich přednosti.
+Kombinaci analytických postupů vypůjčených z různých vědních oblastí se nám nakonec podařilo vypracovat [nový protokol pro mapování vědy](https://doi.org/10.1016/j.poetic.2024.101950), jenž překonává stávající omezení klasifikačních i empiricky založených metod a zároveň zachovává jejich přednosti.
 
 Výchozí myšlenkou nové mapovací techniky je rozklad oborů do dílčích témat. 
 Pro tento účel textové anotace publikací zpracováváme algoritmem pro tzv. tematické modelování.
