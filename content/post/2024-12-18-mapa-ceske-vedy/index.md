@@ -96,7 +96,7 @@ Hlavní osa v naší interpretaci zachycuje protiklad mezi kulturou a přírodou
 
 Geometrická technika mapování má navíc tu výhodu, že dovoluje prozkoumávat i další dimenze prostoru vědění.
 Řez daty sestavený ze druhé a třetí osy tak nabízí zcela jiný pohled, který vedle toho, zda jsou předměty výzkumu životné, či neživotné, zohledňuje i to, do jaké míry se badatelé soustředí na jejich popis, nebo nakolik vyzdvihují jejich zpracování pomocí vědeckých metod.
-Zde se ukazuje, že kromě humanitních věd převažují v tematickém zaměření vědců metodologické akcenty, přičemž nejvíce jsou zdůrazňovány v medicínských a inženýrských oborech. 
+Zde se ukazuje, že kromě humanitních věd převažují v tematickém zaměření vědců metodologické akcenty, přičemž nejvíce jsou zdůrazňovány v medicínských a informatických oborech. 
 Střed mapy je tentokrát zaplněn především sociálněvědními výzkumníky, což v kontextu geometrické – na rozdíl od síťové – mapy musíme vnímat tak, že jsou pro ně tyto rozdíly méně významné. 
 
 <figure>
