@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michal H. Kolář | Radim Hladík</title>
-    <link>/author/michal-h.-kolar/</link>
-      <atom:link href="/author/michal-h.-kolar/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.radimhladik.net/author/michal-h.-kolar/</link>
+      <atom:link href="https://www.radimhladik.net/author/michal-h.-kolar/index.xml" rel="self" type="application/rss+xml" />
     <description>Michal H. Kolář</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 </copyright><lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/sharing.png</url>
+      <url>https://www.radimhladik.net/img/sharing.png</url>
       <title>Michal H. Kolář</title>
-      <link>/author/michal-h.-kolar/</link>
+      <link>https://www.radimhladik.net/author/michal-h.-kolar/</link>
     </image>
     
     <item>
       <title>Grand prix české vědy: Analýza soutěží Grantové agentury ČR pro rok 2020</title>
-      <link>/post/2019-01-21-grand-prix-ceske-vedy/</link>
+      <link>https://www.radimhladik.net/post/2019-01-21-grand-prix-ceske-vedy/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2019-01-21-grand-prix-ceske-vedy/</guid>
+      <guid>https://www.radimhladik.net/post/2019-01-21-grand-prix-ceske-vedy/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;

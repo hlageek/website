@@ -1,6 +1,5 @@
 ---
-title: Blog
-subtitle: "I am a very sporadic blogger."
+title: Blog posts
 page_type: "post"
 view: 2
 ---

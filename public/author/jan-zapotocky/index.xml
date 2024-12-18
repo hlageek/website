@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jan Zápotocký | Radim Hladík</title>
-    <link>/author/jan-zapotocky/</link>
-      <atom:link href="/author/jan-zapotocky/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.radimhladik.net/author/jan-zapotocky/</link>
+      <atom:link href="https://www.radimhladik.net/author/jan-zapotocky/index.xml" rel="self" type="application/rss+xml" />
     <description>Jan Zápotocký</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 </copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/sharing.png</url>
+      <url>https://www.radimhladik.net/img/sharing.png</url>
       <title>Jan Zápotocký</title>
-      <link>/author/jan-zapotocky/</link>
+      <link>https://www.radimhladik.net/author/jan-zapotocky/</link>
     </image>
     
     <item>
       <title>Who Is Afraid of the Platforms? Adoption and Strategies of Use of Social Media by Politicians in the Czech Republic</title>
-      <link>/publication/mackova-2018/</link>
+      <link>https://www.radimhladik.net/publication/mackova-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/mackova-2018/</guid>
+      <guid>https://www.radimhladik.net/publication/mackova-2018/</guid>
       <description></description>
     </item>
     

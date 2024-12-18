@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>open access | Radim Hladík</title>
-    <link>/tag/open-access/</link>
-      <atom:link href="/tag/open-access/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.radimhladik.net/tag/open-access/</link>
+      <atom:link href="https://www.radimhladik.net/tag/open-access/index.xml" rel="self" type="application/rss+xml" />
     <description>open access</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 </copyright><lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/sharing.png</url>
+      <url>https://www.radimhladik.net/img/sharing.png</url>
       <title>open access</title>
-      <link>/tag/open-access/</link>
+      <link>https://www.radimhladik.net/tag/open-access/</link>
     </image>
     
     <item>
       <title>Když kovářova kobyla chodí bosa aneb Praktická lekce z informetrie</title>
-      <link>/post/2019-01-21-prakticka-lekce-informetrie/</link>
+      <link>https://www.radimhladik.net/post/2019-01-21-prakticka-lekce-informetrie/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/post/2019-01-21-prakticka-lekce-informetrie/</guid>
+      <guid>https://www.radimhladik.net/post/2019-01-21-prakticka-lekce-informetrie/</guid>
       <description>&lt;p&gt;Na motivy skutečného příběhu o vzniku nového časopisu pro kvantitativní výzkum vědy Quantitative Science Studies žádný hollywoodský trhák nevznikne. Z pohledu vcelku nezáživné specializace, kterou hodnocení vědy je, však tato anabáze nepostrádá dramatický náboj.&lt;/p&gt;
 &lt;p&gt;Vznešené nadosobní ideje otevřené vědy se zde střetávají s přízemní ziskuchtivostí vydavatelského giganta na poli vědecké literatury, nadnárodní korporace Elsevier. Realita je bezpochyby složitější, ale jako hollywoodská zkratka by taková upoutávka mohla fungovat.&lt;/p&gt;
 &lt;p&gt;Časopis 

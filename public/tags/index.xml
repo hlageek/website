@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Radim Hladík</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.radimhladik.net/tags/</link>
+      <atom:link href="https://www.radimhladik.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Tue, 03 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 </copyright><lastBuildDate>Mon, 11 Jan 2021 10:24:18 +0100</lastBuildDate>
     <image>
-      <url>/img/sharing.png</url>
+      <url>https://www.radimhladik.net/img/sharing.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://www.radimhladik.net/tags/</link>
     </image>
     
   </channel>

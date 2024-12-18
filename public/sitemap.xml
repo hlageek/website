@@ -1,550 +1,298 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://www.radimhladik.net/courses/example/example1/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/courses/example/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/example2/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/courses/example/example2/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/talk/example/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-06-11T16:54:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/analysis/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/analysis/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/authors/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/categories/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/category/czech/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/czech-science-foundation/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/science-funding/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/tags/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/category/vedavyzkum.cz/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/2021-01-11-zavislost-na-gacr/</loc>
+    <lastmod>2021-01-11T10:48:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.radimhladik.net/category/czexpats-in-science/</loc>
     <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-06-11T16:54:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/czech/</loc>
-    <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/czech-science-foundation/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/2019-01-21-grand-prix-ceske-vedy/</loc>
     <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/czexpats-in-science/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/michal-h.-kolar/</loc>
     <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019-01-21-grand-prix-ceske-vedy/</loc>
-    <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/michal-h.-kolar/</loc>
-    <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/science-funding/</loc>
-    <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/vedavyzkum.cz/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/altmetrics/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/altmetrics/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/conferences/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/conferences/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/metascience/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/metascience/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/research-on-research/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/research-on-research/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/scholarly-communication/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/scholarly-communication/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/science-of-science/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/science-of-science/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/scientometrics/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/scientometrics/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/2019-12-09-stebetani-o-vede/</loc>
     <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019-12-09-stebetani-o-vede/</loc>
-    <lastmod>2020-06-09T21:01:44+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication-type/1/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication_types/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/radim-hladik/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/radim-hladik/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2019-h/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2019-h/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/disciplines/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/disciplines/</loc>
     <lastmod>2020-06-09T20:47:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/riv/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/riv/</loc>
     <lastmod>2020-06-09T20:47:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/science-evaluation/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/science-evaluation/</loc>
     <lastmod>2020-06-09T20:47:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/web-of-science/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/web-of-science/</loc>
     <lastmod>2020-06-09T20:47:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019-06-17-za-co-se-rozdavaly-riv-body/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/2019-06-17-za-co-se-rozdavaly-riv-body/</loc>
     <lastmod>2020-06-09T20:47:23+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/admin/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/slides/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/example/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/slides/example/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019-01-21-prakticka-lekce-informetrie/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/2019-01-21-prakticka-lekce-informetrie/</loc>
     <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/open-access/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/open-access/</loc>
     <lastmod>2020-06-09T20:44:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2018-d/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2018-d/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/6/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication-type/6/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/alena-mackova/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/alena-mackova/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jan-zapotocky/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/jan-zapotocky/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/vaclav-stetka/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/vaclav-stetka/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/mackova-2018/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/mackova-2018/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication-type/2/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2017/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2017/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2017-a/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2017-a/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/demo/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-06-07T19:59:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/medium/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/medium/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/music/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/music/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/northern-soul/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/northern-soul/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2016/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2016/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/sound/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/sound/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/subculture/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/subculture/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/temporality/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/temporality/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/stetka-2016/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/stetka-2016/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/vinyl/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/vinyl/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/plot/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/regression/</loc>
-    <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/apartheid/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/apartheid/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/collective-memory/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/collective-memory/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/communism/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/communism/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/history/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/history/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2015/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2015/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/socialism/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/socialism/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2014-a/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2014-a/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/geoepistemology/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/geoepistemology/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/geography-of-science/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/geography-of-science/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/local-knowledge/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/local-knowledge/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/place/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/place/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/space/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/space/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2014/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2014/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/geography/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/geography/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/irena-reifova/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/irena-reifova/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/katerina-gillarova/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/katerina-gillarova/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/knowledge/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/knowledge/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/movement/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2013/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2013/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/movement/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/science/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/science/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/reifova-2013/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/reifova-2013/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/media/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/media/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/review/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/review/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/technology/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/technology/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2012/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2012/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2011/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2011/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2010/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2010/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2009/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2009/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/chelsea-mozen/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/chelsea-mozen/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/hladik-2008/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/hladik-2008/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/imf/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/imf/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/protest/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/tag/protest/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/2024-02-22-mapa-ceske-vedy/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/about/</loc>
     <lastmod>2020-06-10T22:54:51+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/post/</loc>
     <lastmod>2020-06-10T17:23:27+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/contact/</loc>
     <lastmod>2020-06-02T23:51:04+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/courses/</loc>
     <lastmod>2020-06-02T02:52:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/projects/</loc>
     <lastmod>2020-06-02T23:51:04+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/publication/</loc>
     <lastmod>2020-06-05T21:37:05+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/radim-hladik/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/radim-hladik/</loc>
     <lastmod>2020-06-11T16:54:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/radim-hladik/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/author/radim-hladik/</loc>
     <lastmod>2020-06-11T16:54:41+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
+  </url><url>
+    <loc>https://www.radimhladik.net/talk/</loc>
     <lastmod>2020-06-02T01:16:20+02:00</lastmod>
   </url>
-  
 </urlset>

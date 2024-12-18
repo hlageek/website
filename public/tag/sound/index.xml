@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sound | Radim Hladík</title>
-    <link>/tag/sound/</link>
-      <atom:link href="/tag/sound/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.radimhladik.net/tag/sound/</link>
+      <atom:link href="https://www.radimhladik.net/tag/sound/index.xml" rel="self" type="application/rss+xml" />
     <description>sound</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020   </copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2024 </copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/sharing.png</url>
+      <url>https://www.radimhladik.net/img/sharing.png</url>
       <title>sound</title>
-      <link>/tag/sound/</link>
+      <link>https://www.radimhladik.net/tag/sound/</link>
     </image>
     
     <item>
       <title>Origináln ́Retro. Fonografick&#39;T́echnologie a Subkulturn&#39;iéchniky Času v Northern Soulu</title>
-      <link>/publication/hladik-2016/</link>
+      <link>https://www.radimhladik.net/publication/hladik-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/hladik-2016/</guid>
+      <guid>https://www.radimhladik.net/publication/hladik-2016/</guid>
       <description></description>
     </item>
     
